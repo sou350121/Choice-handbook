@@ -1,0 +1,77 @@
+---
+description: Auto-decide whether to use local skills templates
+alwaysApply: true
+---
+
+## Skills 自动路由（每个任务自行决定是否使用）
+
+本项目有一套可选的技能模板在 `D:\\Project_dev\\skills\\`。
+
+### 规则
+- **每次接到新任务时**，先判断是否需要启用某个 skill。
+- **只有在能明显提升质量/速度**时才启用；否则不要引入 skill 内容，直接做任务。
+- 一次任务最多启用 1 个 skill；除非任务同时包含两个强耦合子目标（例如“改代码 + 补测试”）。
+
+### 决策流程（更稳、更不误触发）
+1) **用户手动禁用**：出现“这次不要用 skills / 不要引用 skills / 不要用模板”等表达 → 不引用任何 `@skills/*.md`。
+2) **用户手动强制**：用户显式写了 `@skills/xxx.md` → 优先按用户指定。
+3) **自动路由**：仅当任务包含明显的领域关键词时才启用对应 skill；否则不启用。
+4) **保守优先**：不确定就不用 skill（避免把任务复杂化）。
+
+### 启用提示（让用户一眼看懂）
+- 当决定启用某个 skill 时，在回复开头明确写：`已启用：@skills/<file>.md`。
+
+### 负向关键词（避免把“业务规则”误判成 Cursor Rules）
+- 若用户在说的是**业务/领域规则**，且未出现 Cursor Rules 的强触发词，则不要启用任何 `skill_cursor_rules_*`。
+  - 典型词：`业务规则` / `交易规则` / `风控规则` / `策略规则` / `商业规则` / `业务逻辑` / `交易策略`
+  - 这种情况更可能应该走：`@skills/skill_docs_digest.md`（整理成 checklist）或 `@skills/skill_architecture.md`（方案设计）。
+
+### 自动路由的“强触发词”原则（减少误触发）
+- **Cursor Rules** 相关：出现 `cursor rule` / `.mdc` / `.cursor/rules` / `alwaysApply` / `globs` / `skills-router` / `路由规则` / `规则不生效` 之一，才考虑启用对应 rules skills。
+- **Repo onboarding**：出现 `怎么跑` / `怎么启动` / `入口在哪` / `怎么测试` / `跑不起来` / `README` / `项目结构` 才启用。
+- **MCP**：出现 `mcp.json` / `MCP` / `server-filesystem` / `playwright` / `server-sqlite` / `白名单目录` 才启用。
+
+### 冲突优先级（多个类别同时命中时）
+从高到低：
+1) **Cursor Rules**（`.cursor/rules`/`.mdc`/`skills-router` 等强触发）
+2) **MCP**（`mcp.json`/MCP/server-* 等强触发）
+3) **Repo onboarding**（怎么跑/怎么测/README/项目结构）
+4) 其它工程技能（Debug/测试/性能/安全/改代码等）
+
+### 路由映射（如何选）
+- **改代码/重构/修 bug** → `@skills/skill_code_change.md`
+- **写/补/整理测试** → `@skills/skill_testing.md`
+- **SQLite 建库/查表/写 SQL/排查慢查询** → `@skills/skill_sqlite.md`
+- **网页自动化、E2E、复现前端交互问题** → `@skills/skill_web_automation.md`
+- **读 docs、提炼规范、输出 checklist/可执行结论** → `@skills/skill_docs_digest.md`
+- **写 X 长文/Telegram 长文（技术 Up 主文案）** → `@skills/skill_x_longform_upwriter.md`
+- **报错/异常/结果不对/偶发问题（Debug）** → `@skills/skill_debug.md`
+- **要审改动质量/准备合并/想要评审清单** → `@skills/skill_code_review.md`
+- **涉及鉴权/权限/凭证/token/输入校验/敏感数据** → `@skills/skill_security.md`
+- **慢/卡/延迟高/CPU 或内存异常（性能）** → `@skills/skill_performance.md`
+- **新功能方案/大重构/引入新组件（设计）** → `@skills/skill_architecture.md`
+- **跑不起来/依赖冲突/缺一键运行（环境搭建）** → `@skills/skill_setup_dependencies.md`
+- **CSV/Parquet/SQLite 数据处理/统计/导入导出** → `@skills/skill_data_analysis.md`
+- **发版/写变更日志/升级说明/回滚方案** → `@skills/skill_release_changelog.md`
+- **写/改 Cursor Rules（.cursor/rules/*.mdc）** → `@skills/skill_cursor_rules_authoring.md`
+- **维护 skills-router 路由** → `@skills/skill_cursor_rules_router.md`
+- **Cursor Rules 不生效/乱生效（排错）** → `@skills/skill_cursor_rules_debug.md`
+- **快速上手项目/找入口/怎么跑/怎么测（Repo onboarding）** → `@skills/skill_cursor_repo_onboarding.md`
+- **配置 MCP（mcp.json）与安全白名单** → `@skills/skill_cursor_mcp_setup.md`
+
+### UI/UX（额外增强：Cursor Command + 本地设计数据库）
+- 当用户出现以下诉求时，优先用 **Cursor Command** 驱动 UI/UX 决策，再进入改代码：
+  - 关键词：`UIUX` / `美化` / `更好看` / `布局` / `信息层级` / `对齐` / `间距` / `字体` / `配色` / `交互` / `可用性`
+- 可用命令（在 Cursor Chat 输入）：
+  - `/ui-ux-pro-max`：通用 UI/UX 数据库（风格/配色/字体/UX guideline/stack best practice）
+  - `/latex-uiux`：本项目定制（Knownote LaTeX Writer / Codex sheet 的美化与可用性流程）
+- 命令依赖的本地数据在：`D:\\Project_dev\\.shared\\ui-ux-pro-max\\`（可用 `python .shared\\ui-ux-pro-max\\scripts\\search.py ...` 搜索）
+
+### 手动强制/手动禁用（用户口令）
+- 用户说“这次不要用 skills / 不要引用 skills” → 不引用任何 `@skills/*.md`。
+- 用户显式指定了 `@skills/xxx.md` → 优先使用用户指定（忽略自动路由）。
+
+### 安全默认值
+- 文件操作只应限定在项目目录（例如 `D:\\Project_dev`）。
+- 密码/token 不写死在仓库文件里；优先使用环境变量。
+
