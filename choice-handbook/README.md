@@ -17,7 +17,7 @@
 1. `frameworks/01_decision_quality.md`：用“过程质量”替代“结果执念”  
 2. `frameworks/02_horizon_map.md`：短/中/长期利益的统一视角  
 3. `frameworks/03_opportunity_and_option_value.md`：机会成本与期权价值（保留选择）
-4. `frameworks/05_comparative_thinking.md`：比较思考（发展史/类比/当下与未来）
+4. `frameworks/05_reasoning_toolkit.md`：推理工具箱（材料→结构→推演→行动）
 
 ### 熟练（用案例训练直觉）
 - 进入 `cases/`：每个案例都带“尽头 + 退出条件 + 下一步实验”
@@ -102,7 +102,7 @@ choice-handbook/
 
 ## 使用建议（避免变成鸡汤）
 
-- **每一篇都必须落到行动**：至少一个下一步实验（小成本验证/访问/试运行）。
+- **每一篇都必须落到行动**：至少一个下一步实验（小成本验证/访问/试运行）+ **一个可复制执行的 Plan Prompt**（直接贴给 Agent 去完成）。
 - **每一个选择都必须写“退出条件”**：何时停止、止损、停机点，以及重启条件。
 - **用“尽头”把你拉回现实**：看清资源、约束、代价与人自身的真实处境。
 
