@@ -15,4 +15,5 @@
 - `2026-01-19_gaoyang_spirit_v1_5_clean_data_enemy.md`：专访/翻译整理 digest（高阳：clean vs diverse 数据范式 / Spirit v1.5）
 - `2026-01-19_dexterous_hands_hardware_algorithms_silicon101.md`：访谈整理 digest（灵巧手：硬件三路线 × 算法瓶颈 × 数据金字塔）
 - `2026-01-19_deepseek_mhc_reproduction_kolasinski.md`：复现 digest（DeepSeek mHC：超连接信号爆炸 × Sinkhorn 约束 × 规模化稳定性）
+- `2026-01-19_tsmc_cycle_philosophy_cowos_emib.md`：产业 digest（台积电周期哲学：CoWoS-S 瓶颈 × 外溢订单 × Intel EMIB 机会窗）
 

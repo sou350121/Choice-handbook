@@ -16,4 +16,5 @@
 - `embodied_data_clean_vs_diverse_spirit_v1_5.md`：具身数据范式（高阳 / Spirit v1.5）：clean vs diverse（Diversity，然后 Scale）
 - `dexterous_hands_hardware_algorithms.md`：灵巧手为何难：硬件三路线 × 触觉 × 接触点爆炸 × 成功率门槛
 - `mhc_manifold_hyperconnections_residual_conservation.md`：mHC（流形超连接）：用 Sinkhorn 约束恢复“残差守恒”，避免规模化信号爆炸
+- `tsmc_cycle_philosophy_cowos_emib.md`：台积电周期哲学：CoWoS-S 瓶颈 × 外溢订单 × Intel EMIB 机会窗
 
