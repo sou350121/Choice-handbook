@@ -15,4 +15,5 @@
 - `state_of_llms_2025_raschka.md`：2025 推理模型之年（Raschka）：RLVR/GRPO、Benchmaxxing、工具与推理时扩展
 - `embodied_data_clean_vs_diverse_spirit_v1_5.md`：具身数据范式（高阳 / Spirit v1.5）：clean vs diverse（Diversity，然后 Scale）
 - `dexterous_hands_hardware_algorithms.md`：灵巧手为何难：硬件三路线 × 触觉 × 接触点爆炸 × 成功率门槛
+- `mhc_manifold_hyperconnections_residual_conservation.md`：mHC（流形超连接）：用 Sinkhorn 约束恢复“残差守恒”，避免规模化信号爆炸
 
