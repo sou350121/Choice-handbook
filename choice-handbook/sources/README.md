@@ -14,4 +14,5 @@
 - `2026-01-19_raschka_state_of_llms_2025.md`：观点 digest（Raschka：2025 推理模型之年 / Benchmaxxing / 工具与推理时扩展）
 - `2026-01-19_gaoyang_spirit_v1_5_clean_data_enemy.md`：专访/翻译整理 digest（高阳：clean vs diverse 数据范式 / Spirit v1.5）
 - `2026-01-19_dexterous_hands_hardware_algorithms_silicon101.md`：访谈整理 digest（灵巧手：硬件三路线 × 算法瓶颈 × 数据金字塔）
+- `2026-01-19_deepseek_mhc_reproduction_kolasinski.md`：复现 digest（DeepSeek mHC：超连接信号爆炸 × Sinkhorn 约束 × 规模化稳定性）
 
