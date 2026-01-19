@@ -9,7 +9,6 @@
 ## 索引
 
 - `2026-01-19_ken_goldberg_robotics_data_infrastructure.md`：对谈材料 digest（Ken Goldberg × Vincent Vanhoucke，二手搬运稿）
-- `2026-01-19_tangnuo_end_vs_limit_real_conditions.md`：摘录 digest（唐诺：极限 vs 尽头 + 真实处境目录）
 - `2026-01-19_karpathy_llm_year_in_review_2025.md`：观点 digest（Karpathy：2025 LLM 年度回顾 / 范式转变）
 - `2026-01-19_hrt_hail_foundation_models_automated_trading_icml_2025.md`：二手梳理 digest（HRT/HAIL：自动化交易基础模型）
 - `2026-01-19_raschka_state_of_llms_2025.md`：观点 digest（Raschka：2025 推理模型之年 / Benchmaxxing / 工具与推理时扩展）
