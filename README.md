@@ -30,9 +30,11 @@
 |---|---|---|
 | **原则** | `principles/README.md` | 选择观、价值与边界 |
 | **框架库** | `frameworks/README.md` | 可复用的决策模型与方法 |
+| **世界理解** | `world_understanding/README.md` | 对世界/技术/机制的解释模型（趋势/范式/路线） |
 | **练习表单** | `worksheets/README.md` | 可复制填写：one-pager / premortem / postmortem |
 | **案例库** | `cases/README.md` | 跨场景训练：职业/关系/健康/金钱/项目 |
 | **清单** | `checklists/README.md` | 高频场景：跳槽/合作/学习路径/项目选择等 |
+| **材料库** | `sources/README.md` | 外部材料 digest（可回查，避免编造） |
 
 ---
 
@@ -97,8 +99,10 @@ flowchart TD
 choice-handbook/
 ├── README.md
 ├── AGENT.md
+├── sources/
 ├── principles/
 ├── frameworks/
+├── world_understanding/
 ├── worksheets/
 ├── cases/
 └── checklists/

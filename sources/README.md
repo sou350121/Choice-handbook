@@ -1,0 +1,18 @@
+# Sources（材料库 / 可回查）
+
+这里放对外部材料的“可回查摘要（digest）”，用于：
+- 记录来源与材料类型（避免把二手观点当事实）
+- 记录可抽取资产（定义、变量、机制、可验证预测）
+- 记录材料的盲区与不确定性
+- 让后续写作能快速回忆与引用（不编造）
+
+## 索引
+
+- `2026-01-19_ken_goldberg_robotics_data_infrastructure.md`：对谈材料 digest（Ken Goldberg × Vincent Vanhoucke，二手搬运稿）
+- `2026-01-19_tangnuo_end_vs_limit_real_conditions.md`：摘录 digest（唐诺：极限 vs 尽头 + 真实处境目录）
+- `2026-01-19_karpathy_llm_year_in_review_2025.md`：观点 digest（Karpathy：2025 LLM 年度回顾 / 范式转变）
+- `2026-01-19_hrt_hail_foundation_models_automated_trading_icml_2025.md`：二手梳理 digest（HRT/HAIL：自动化交易基础模型）
+- `2026-01-19_raschka_state_of_llms_2025.md`：观点 digest（Raschka：2025 推理模型之年 / Benchmaxxing / 工具与推理时扩展）
+- `2026-01-19_gaoyang_spirit_v1_5_clean_data_enemy.md`：专访/翻译整理 digest（高阳：clean vs diverse 数据范式 / Spirit v1.5）
+- `2026-01-19_dexterous_hands_hardware_algorithms_silicon101.md`：访谈整理 digest（灵巧手：硬件三路线 × 算法瓶颈 × 数据金字塔）
+
