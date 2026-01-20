@@ -17,4 +17,5 @@
 - `2026-01-19_deepseek_mhc_reproduction_kolasinski.md`：复现 digest（DeepSeek mHC：超连接信号爆炸 × Sinkhorn 约束 × 规模化稳定性）
 - `2026-01-19_tsmc_cycle_philosophy_cowos_emib.md`：产业 digest（台积电周期哲学：CoWoS-S 瓶颈 × 外溢订单 × Intel EMIB 机会窗）
 - `2026-01-20_naval_attention_currency_of_life.md`：观点 digest（纳瓦尔：注意力是生命真正的货币 / Currency of Life）
+- `2026-01-20_wang_qian_zibian_embodied_openai.md`：访谈 digest（王潜/自变量：端到端具身基础模型、数据优先与“具身界 OpenAI”叙事）
 
