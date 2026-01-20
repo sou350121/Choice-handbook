@@ -18,4 +18,5 @@
 - `mhc_manifold_hyperconnections_residual_conservation.md`：mHC（流形超连接）：用 Sinkhorn 约束恢复“残差守恒”，避免规模化信号爆炸
 - `tsmc_cycle_philosophy_cowos_emib.md`：台积电周期哲学：CoWoS-S 瓶颈 × 外溢订单 × Intel EMIB 机会窗
 - `attention_is_currency_of_life_naval.md`：注意力是生命真正的货币（Naval）：用“注意力预算”重写你的现实
+- `embodied_openai_playbook_wang_qian.md`：具身界的 OpenAI（王潜/自变量）：端到端路线 × 数据优先 × AI 定义硬件
 
