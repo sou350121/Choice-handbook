@@ -8,4 +8,5 @@
 3. `03_opportunity_and_option_value.md`：机会成本、期权价值、可逆/不可逆分流
 4. `04_end_thinking_tangnuo.md`：尽头思维 → 退出条件/停机点
 5. `05_reasoning_toolkit.md`：推理工具箱（材料分类 + 降维解剖 + 比较思考，聚合精简版）
+6. `06_time_travel_endgame_simulator.md`：时空穿越者式极限思索（T0/Now）× 盡頭推演引擎（Endgame Map + Gate 1/2/3 + Belief Flywheel）
 
