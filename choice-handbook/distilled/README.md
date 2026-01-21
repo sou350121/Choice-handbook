@@ -8,6 +8,7 @@
 - `high_certainty_decisions.md`：高确定性决策（对应 `meta/decisions_log.md`）
 - `life_choice_operating_system.md`：把人生选择写成“可证伪 / 可退出 / 可复盘”的系统（总纲）
 - `opportunity_map.md`：机会图谱（Top 3–5 候选：Gate/探针/停机点，按周更新）
+- `yearbook/README.md`：年度复盘索引（2000–2025）：短版入口（长版在 `world_understanding/yearbook/`）
 
 ## 写法规则（让它更 solid）
 

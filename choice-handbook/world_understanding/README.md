@@ -9,6 +9,7 @@
 
 ## 目录
 
+- `yearbook/README.md`：年度复盘（2000–2025，长版 / 06 思维）：作为重大选择的“年代参照系”
 - `robotics_data_infrastructure.md`：机器人学 × 数据基础设施（AI 时代重估老式工程学）
 - `llm_year_in_review_2025_karpathy.md`：2025 LLM 年度回顾（Karpathy）：六个范式转变
 - `foundation_models_automated_trading_hrt_hail.md`：自动化交易的基础模型（HRT/HAIL）：智能 vs 速度

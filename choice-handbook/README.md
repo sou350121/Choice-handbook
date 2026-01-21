@@ -12,9 +12,10 @@
 ## 快速开始（只看这一段就够）
 
 1) **先看蒸馏层入口**：`distilled/README.md`  
-2) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
-3) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
-4) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
+2) **需要“年代参照系”时**：`distilled/yearbook/README.md`（2000–2025 年度复盘：短版入口）  
+3) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
+4) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
+5) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
 
 ---
 
@@ -58,6 +59,7 @@
 | **材料库** | `sources/README.md` | 外部材料 digest（可回查，避免编造） |
 | **证据联结** | `meta/README.md` | 猜想注册表 + 决策日志：新证据验证旧猜想，升级确定性 |
 | **蒸馏层** | `distilled/README.md` | 给人看的精华入口：核心猜想 + 高确定性决策 |
+| **年度复盘** | `distilled/yearbook/README.md` | 2000–2025 年度参照系：短版入口（长版在 `world_understanding/yearbook/`） |
 
 ---
 
