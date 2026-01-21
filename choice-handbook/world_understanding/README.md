@@ -25,4 +25,5 @@
 - `loneliness_economy_five_feelings.md`：孤独经济：五种感觉（安定/连接/共创/慰藉/独特）与“连接资产配置”
 - `embodied_openai_playbook_wang_qian.md`：具身界的 OpenAI（王潜/自变量）：端到端路线 × 数据优先 × AI 定义硬件
 - `a16z_ai_investment_logic_three_paths_rampell.md`：a16z（Alex Rampell）：AI 投资逻辑三条路（AI 原生改造 / 劳动力替代 / 围墙花园数据）
+- `ai_auto_aftermarket_diagnostics_topdon_topfix.md`：AI 汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护（TOPDON/TopFix 样本）
 

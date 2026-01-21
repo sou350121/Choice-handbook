@@ -46,6 +46,15 @@
 - **停机点（First Tripwire）**：更 clean 的流程在迁移/恢复上持续胜出，且组织成本不线性增长（说明我们押错了主矛盾）。  
 - **入口**：`distilled/core_hypotheses.md`（H-0004） / `distilled/high_certainty_decisions.md`（D-0003）
 
+### 5) 汽车后市场：AI 诊断消费化 → 数据闭环 → 订阅/生态（H-0014）
+
+- **潜力档位**：更像 **10x–100x**（若成为行业默认诊断入口；但受 OEM/合规硬约束）  
+- **当前 Gate**：**Gate 2（买信息期权）**  
+- **为什么值得跟踪（1 句）**：诊断是维修决策瓶颈；一旦“诊断→维修→结果”闭环数据成立，工具可能升级为订阅与生态平台。  
+- **最短探针（30d）**：做一张信号板：订阅形态/续费线索、复访与案例增长、关键车系可用性、Right-to-Repair 与 OEM 动态、合规/责任事件。  
+- **停机点（First Tripwire）**：OEM 协议/加密收紧导致核心车系不可用；或出现重大责任事故导致信任/合规成本急剧上升；或订阅续费不成立。  
+- **入口**：`meta/hypotheses_registry.md`（H-0014） / `world_understanding/ai_auto_aftermarket_diagnostics_topdon_topfix.md`
+
 ---
 
 ## 风险墙（永远优先：先锁灾难上界）

@@ -24,4 +24,5 @@
 - `2026-01-21_loneliness_economy_sileme_app.md`：趋势 digest（孤独经济：安定/连接/共创/慰藉/独特五种感觉）
 - `2026-01-20_wang_qian_zibian_embodied_openai.md`：访谈 digest（王潜/自变量：端到端具身基础模型、数据优先与“具身界 OpenAI”叙事）
 - `2026-01-21_a16z_ai_investment_logic_three_paths_rampell.md`：投资框架 digest（a16z / Alex Rampell：AI 时代三条路：AI 原生改造 / 劳动力替代 / 围墙花园数据）
+- `2026-01-21_ai_auto_aftermarket_diagnostics_topdon_topfix.md`：产业/公司案例 digest（汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护）
 
