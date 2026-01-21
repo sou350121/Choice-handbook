@@ -1,12 +1,29 @@
 # Choice Handbook（选择手册）
 
-> 目标：把“做更好的选择”变成一套可练习、可复盘、可长期迭代的系统。
->
+> 目标：把“做更好的选择”变成一套**可证伪 / 可退出 / 可复盘**、可长期迭代的系统。  
 > 核心信念：**选择质量（方向与乘数）长期大于努力强度（执行与燃料）**。
 
 ---
 
-## 建议阅读路线（Suggested Reading Path）
+## 快速开始（只看这一段就够）
+
+1) **先看蒸馏层入口**：`distilled/README.md`  
+2) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
+3) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
+4) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
+
+---
+
+## 按目标阅读（更省脑）
+
+- **你正在做一个现实选择（职业/关系/项目/学习）**：从 `worksheets/decision_one_pager.md` 开始，用一页卡落地  
+- **你想训练“尽头 + 退出条件”的能力**：读 `frameworks/04_end_thinking_tangnuo.md`  
+- **你要把“观点”升级成“系统”**：读 `distilled/life_choice_operating_system.md`  
+- **你给我新文章/线索，想把它变成可用结论**：看下面的“文章处理工作流”
+
+---
+
+## 建议阅读路线（Suggested Reading Path，传统线性版）
 
 ### 入门（先能用）
 1. `principles/01_choice_over_effort.md`：先把“选择 vs 努力”的边界说清楚  
@@ -48,7 +65,12 @@
 
 ## 文章处理工作流（Article Processing Workflow）
 
-当你给我一篇文章时，我会把它“读入 → 回看旧内容 → 提炼 → 落盘 → 复盘”，并把产出放到最合适的位置（`frameworks/`/`cases/`/`checklists/`/`worksheets/`/`principles/`），同时沉淀一份 `sources/` digest 以便后续回查。
+当你给我一篇文章时，我会把它变成“四层资产”（你在 GitHub 上一眼能找到）：
+
+- **sources/**：可回查 digest（锚点/定义/变量/机制/预测/不确定性）  
+- **world_understanding/**：完整推理与 Gate 分析（T0-Now/T0-Analog/Endgame/探针/停机点）  
+- **meta/**：猜想注册表/决策日志（让新证据能验证旧猜想并升级确定性）  
+- **distilled/**：给人看的结论（结论+证据锚点+反证信号+下一步）
 
 ```mermaid
 flowchart TD
@@ -75,6 +97,13 @@ flowchart TD
   UpdateSourcesIndex --> UpdateModuleIndex[UpdateModuleIndex]
   UpdateModuleIndex --> NextReading[NextReading]
 ```
+
+### 你会得到什么（默认交付）
+
+- **1 个 digest**：`sources/YYYY-MM-DD_xxx.md`
+- **1 个 06/Gate 分析**：`world_understanding/xxx.md`
+- **1 条可证伪猜想（或更新旧猜想）**：写入 `meta/hypotheses_registry.md`
+- **1 条蒸馏结论入口**：更新 `distilled/opportunity_map.md`（必要时也更新 `distilled/core_hypotheses.md`）
 
 ## 写作视角说明（Future Historian / 未来回看者）
 
