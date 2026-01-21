@@ -108,6 +108,7 @@ flowchart TD
 - **1 个 06/Gate 分析**：`world_understanding/xxx.md`
 - **1 条可证伪猜想（或更新旧猜想）**：写入 `meta/hypotheses_registry.md`
 - **1 条蒸馏结论入口**：更新 `distilled/opportunity_map.md`（必要时也更新 `distilled/core_hypotheses.md`）
+- **联结检查（小门禁）**：至少命中 1 条旧 `H-XXXX`（支持/反对/不确定三选一），并把交叉链接回写到 `meta/hypotheses_registry.md`（让新证据能升级旧猜想）
 
 ## 写作视角说明（Future Historian / 未来回看者）
 
