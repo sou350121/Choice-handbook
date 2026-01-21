@@ -26,4 +26,9 @@
 - `embodied_openai_playbook_wang_qian.md`：具身界的 OpenAI（王潜/自变量）：端到端路线 × 数据优先 × AI 定义硬件
 - `a16z_ai_investment_logic_three_paths_rampell.md`：a16z（Alex Rampell）：AI 投资逻辑三条路（AI 原生改造 / 劳动力替代 / 围墙花园数据）
 - `ai_auto_aftermarket_diagnostics_topdon_topfix.md`：AI 汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护（TOPDON/TopFix 样本）
+- `roboparty_roboto_origin_open_source_humanoid_infra.md`：RoboParty「Roboto_Origin」：人形机器人“可复现全栈底座”× 开源基建 × 治理/认证的价值捕获迁移
+- `jd_ai_shopping_agentic_commerce.md`：京东「AI 购」：代理人电商入口 × 决策压缩 × 证据透明与反价值捕获治理
+- `world_labs_lightwheel_evaluation_driven_embodied.md`：World Labs × 光轮：评测驱动具身（Benchmark as Infrastructure）× Digital Cousin × 抗 Goodhart 的评测治理
+- `eigent_open_source_cowork_desktop_mcp.md`：Eigent（开源 Cowork）：桌面执行权 × MCP 工具生态 × 本地优先（许可证/安全/平台吞并三重约束）
+- `q_realign_quantization_deployment_safety_realignment.md`：Q-realign：部署期 PTQ（量化）作为“安全再对齐”的低成本结构干预窗口（激活可分性视角）
 
