@@ -25,4 +25,9 @@
 - `2026-01-20_wang_qian_zibian_embodied_openai.md`：访谈 digest（王潜/自变量：端到端具身基础模型、数据优先与“具身界 OpenAI”叙事）
 - `2026-01-21_a16z_ai_investment_logic_three_paths_rampell.md`：投资框架 digest（a16z / Alex Rampell：AI 时代三条路：AI 原生改造 / 劳动力替代 / 围墙花园数据）
 - `2026-01-21_ai_auto_aftermarket_diagnostics_topdon_topfix.md`：产业/公司案例 digest（汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护）
+- `2026-01-21_roboparty_roboto_origin_open_source_humanoid_infra.md`：产业/工程范式 digest（RoboParty：人形机器人全栈开源底座 × 可复现链路 × 知识库/测试矩阵）
+- `2026-01-21_jd_ai_shopping_agentic_commerce.md`：产品/产业 digest（京东 AI 购：代理人电商入口 × 决策压缩 × 生成式商详）
+- `2026-01-21_world_labs_lightwheel_evaluation_driven_embodied.md`：产业/基建 digest（World Labs × 光轮：评测驱动具身 × Digital Cousin × Real2Sim/评测闭环）
+- `2026-01-21_eigent_open_source_cowork_desktop_mcp.md`：产品/工具 digest（Eigent：开源 Cowork 桌面应用 × 多智能体工作流 × MCP × 本地优先）
+- `2026-01-21_q_realign_activation_space_quantization_safety_realignment.md`：论文/部署工程 digest（Q-realign：激活可分性视角 × 把安全再对齐塞进 PTQ 量化流程）
 
