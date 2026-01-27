@@ -43,4 +43,5 @@
 - `2026-01-27_clawdbot_zero_employee_company_newzhiyuan_paste.md`：媒体传播稿 digest（“0 员工公司/AI 员工”叙事 × 执行器风险面；用户粘贴全文）
 - `2026-01-27_life_is_about_experience_spectator_participant_paste.md`：观点 digest（“人生在于体验”陷阱：观众模式 × 多巴胺消费 × 复利被清零；用户粘贴全文）
 - `2026-01-27_embodied_startups_dont_understand_pmf_pricing_orders_delivery_paste.md`：行业观察 digest（具身 PMF：定价=ROI、交付=生死线、订单去噪；用户粘贴全文）
+- `2026-01-27_musk_davos_2026_ai_robotics_energy_space_fsd.md`：公开对谈 digest（Davos 2026：AI 时间表 × 机器人丰裕 × FSD 监管口径 × 能源瓶颈；WEF 逐字稿为一手锚点）
 

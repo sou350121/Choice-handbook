@@ -197,6 +197,15 @@
 - **停机点（First Tripwire）**：一年内扩容仍主要卡单卡算力且“管子”瓶颈不再出现；推理侧专用化无可回归进展；因子重构无法解释产业/资本的边际变化。
 - **入口**：`distilled/core_hypotheses.md`（H-0032） / `world_understanding/tech_2026_ai_autonomy_compute_factor_shift.md`
 
+### M) 能源瓶颈：电力/电网/并网许可/散热（水）将成为 AI 扩张的更频繁第一约束（H-0034）
+
+- **潜力档位**：更像 **3x–10x（基础设施约束驱动的结构机会，不承诺单票价格路径）**
+- **当前 Gate**：**Gate 2（买信息期权）**
+- **为什么值得跟踪（1 句）**：当“电力接入/并网/许可/散热”成为扩张硬上限，产业会向电力富集区聚集，CapEx 结构从“买卡”迁移到“买电+买站+买许可”。
+- **最短探针（30d）**：做“供电瓶颈信号板”（每周 15 分钟）：统计 10 条公告/新闻里 power/grid/permit/substation/transformer/cooling/water vs GPU 的主摩擦占比，并记录项目选址是否向电力富集区聚集。
+- **停机点（First Tripwire）**：电力/并网/许可摩擦显著下降且可回归，扩张长期仍主要卡 GPU；或电价/容量合同不再成为竞争要素。
+- **入口**：`distilled/core_hypotheses.md`（H-0034） / `world_understanding/davos_2026_musk_ai_timeline_abundance_energy_bottleneck.md`
+
 ---
 
 ## 风险墙（永远优先：先锁灾难上界）

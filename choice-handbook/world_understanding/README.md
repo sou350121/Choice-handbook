@@ -35,6 +35,7 @@
 - `ai_labor_shift_infra_bottlenecks_trust_2026.md`：AI 劳动力压缩 × 基础设施瓶颈 × 可信治理（信号合集）
 - `market_structure_abb_regime_2026_06.md`：2026 市场结构：资本稀缺 × ABB 轮动 × 估值重定价（06）
 - `tech_2026_ai_autonomy_compute_factor_shift.md`：2026 科技：系统级 Scaling × 端到端自动驾驶 × 算力因子重构（从“铲子”到“管子”】【含探针/退出】）
+- `davos_2026_musk_ai_timeline_abundance_energy_bottleneck.md`：Davos 2026：AI 时间表 × 机器人丰裕 × FSD 监管口径 × 能源瓶颈（把预测变成门禁/探针）
 - `ai_auto_aftermarket_diagnostics_topdon_topfix.md`：AI 汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护（TOPDON/TopFix 样本）
 - `roboparty_roboto_origin_open_source_humanoid_infra.md`：RoboParty「Roboto_Origin」：人形机器人“可复现全栈底座”× 开源基建 × 治理/认证的价值捕获迁移
 - `jd_ai_shopping_agentic_commerce.md`：京东「AI 购」：代理人电商入口 × 决策压缩 × 证据透明与反价值捕获治理
