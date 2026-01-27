@@ -6,11 +6,45 @@
 
 你要交付的不是“看起来很对”，而是读者能立刻用的 **强结论 + 规则**：
 
-- **结论先行**：强烈推荐 / 强烈不推荐 / 观察名单（写置信度：20/50/80）+ 适用边界。
-- **必须可证伪**：至少 3 条反证信号（出现就降级/退出）。
-- **必须可退出**：退出条件 + 重启条件（阈值化、可执行）。
-- **必须可复盘**：给 7 天内最小验证动作（把确定性往上推）。
-- **强结论要核验**：对 ticker/ETF/关键事实不确定时，先 web search；不然降级为观察名单。
+### 约束速查卡（复制这个检查）
+
+写完一篇后，快速检查这 5 项：
+
+| 检查项 | 一句话说明 | 如果做不到 |
+|--------|-----------|-----------|
+| **结论** | 先说推荐/不推荐/再看看，并说清楚适合谁 | 至少写"需要更多证据"并给验证动作 |
+| **退出条件** | 写清楚"何时停止"（用可观测信号，不是情绪） | 至少写"如果 X 信号出现就暂停" |
+| **重启条件** | 写清楚"何时再上"（满足哪些证据才允许回来） | 至少写"如果 Y 证据出现就重启" |
+| **验证动作** | 给 7 天内能完成的小成本验证（具体动作 + 预期证据） | 至少给一个"最小探针"（48h/7d） |
+| **事实核验** | 对关键事实不确定时，先 web search；不然降级为观察名单 | 不确定就标注"不确定"，不要编造 |
+
+### 核心要求（详细版）
+
+- **结论先行**：强烈推荐 / 强烈不推荐 / 观察名单（写置信度：20/50/80）+ 适用边界
+- **必须可证伪**：至少 3 条反证信号（出现就降级/退出）
+- **必须可退出**：退出条件 + 重启条件（用可观测信号定义，不是情绪）
+- **必须可复盘**：给 7 天内最小验证动作（把确定性往上推）
+- **强结论要核验**：对 ticker/ETF/关键事实不确定时，先 web search；不然降级为观察名单
+
+## 新项目/新仓库分析协议（强制）
+
+当用户给出一个“新项目/新仓库/新产品”（例如一个 GitHub repo）并要求分析时，必须额外交付两件事：
+
+1) **Evidence Snapshot（必须）**：新增一个 `sources/YYYY-MM-DD_<name>_github_repo_snapshot.md`（或同等命名）作为一手可核验锚点。  
+2) **Framework 06（必须过一遍）**：用 `frameworks/06_time_travel_endgame_simulator.md` 的固定标题跑一遍（可以短，但**标题不能省**），并至少给出：Gate、Endgame Map、停止机制、最短探针、Hard Forcing Functions。
+
+### 新 repo 协议：极小 Checklist（强制）
+
+写完后必须能勾完这 2 组检查：
+
+- **Snapshot 文件必含 5 项字段**：
+  - [ ] repo URL（可回查）  
+  - [ ] license（以 repo 为准）  
+  - [ ] stars/forks（注明日期）  
+  - [ ] 运行入口/关键架构（README 可核验的部分）  
+  - [ ] Delta：对既有分析的影响（把不确定性收敛到 1–3 条）  
+- **world_understanding 主文必须链回 snapshot**：
+  - [ ] `world_understanding/<topic>.md` 的开头信息区（标题下方/blockquote 处）必须包含：`sources/YYYY-MM-DD_<name>_github_repo_snapshot.md`
 
 ## 目标
 - 把“选择”写成**可执行、可复盘、可持续迭代**的手册，而不是观点集合。
@@ -26,6 +60,28 @@
 - 用 `frameworks/06_time_travel_endgame_simulator.md` 的固定输出格式做一次完整推演（T0→Now、Endgame Map、Belief Flywheel、Gate 1/2/3）。  
 - 三视角必须出现：穿越者（T0）、机制（经济学×博弈论×社会动力学）、上帝（盲点与最短通关路径）；并给“七层共振检查”的 Yes/No 结论。  
 - 涉及价格/市值/链上/用户/融资/政策/版本/人物职务等时变信息：必须 web search 核验并标注日期；否则不得 Gate 3。
+
+> 补充：当用户明确要求“过一次 framework 6 / 按 06 来”，或任务属于“新项目/新仓库分析”，即使用户没有说 BTC，也必须按 06 的固定标题完整输出（允许短，但不许跳标题）。
+
+## 年鉴/Case Atlas（类比与门禁）使用协议（强制）
+
+当你要在 `world_understanding/` 中写 **T0-Analog / 类比回放**，或用户明确要“更多案例/更全面案例”时，必须用 Case Atlas 的**新结构**，避免把读者带进 4 份文件的迷宫：
+
+- **只读一次的使用说明（不是案例库）**：  
+  - `world_understanding/yearbook/case_atlas_financial_platform_supplychain_framework06.md`
+- **核心三分册（11–13，从速用索引开始）**：  
+  - 金融危机（编号 `11.x`）：`world_understanding/yearbook/case_atlas_financial_crisis_06.md`  
+  - 平台战争（编号 `12.x`）：`world_understanding/yearbook/case_atlas_platform_wars_06.md`  
+  - 供应链与制造（编号 `13.x`）：`world_understanding/yearbook/case_atlas_supply_chain_manufacturing_06.md`
+- **扩展分册（14–34）**：见 `world_understanding/yearbook/README.md` 的扩展分册清单（用法完全一致）。
+
+### 最小用法（必须照做）
+
+1) 先判你当前问题属于哪类分册（11–34：金融/平台/供应链/或扩展行业）。  
+2) 打开对应分册，看 `速用索引` 选 2–3 个结构类比。  
+3) 对每个类比只抄 3 件：**First Tripwire / Catastrophic Bound / Death Spiral**（不要整页抄）。  
+4) 只留 1 条 **最短探针（48h/7d/30d）**：行动 + 可观测信号 + 退出阈值（写死）。  
+> 统一应用方法详见：`world_understanding/yearbook/case_atlas_usage_template.md`。
 
 ### 何时允许“强烈推荐 / 强烈不推荐”
 

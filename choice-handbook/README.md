@@ -16,15 +16,17 @@
 3) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
 4) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
 5) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
+6) **不知道该用哪个框架时**：看 `frameworks/README.md` 的“框架路由（默认顺序）”
 
 ---
 
 ## 按目标阅读（更省脑）
 
 - **你正在做一个现实选择（职业/关系/项目/学习）**：从 `worksheets/decision_one_pager.md` 开始，用一页卡落地  
-- **你想训练“尽头 + 退出条件”的能力**：读 `frameworks/04_end_thinking_tangnuo.md`  
+- **你想训练“尽头 + 退出条件”的能力**：读 `frameworks/03_end_thinking_tangnuo.md`  
 - **你要把“观点”升级成“系统”**：读 `distilled/life_choice_operating_system.md`  
 - **你给我新文章/线索，想把它变成可用结论**：看下面的“文章处理工作流”
+- **你要用 Case Atlas 做类比门禁**：先看 `world_understanding/yearbook/README.md` 的“统一应用方法”，按 **速用索引 → Tripwire/Bound/Spiral → 最短探针** 落地
 
 ---
 
@@ -33,12 +35,12 @@
 ### 入门（先能用）
 1. `principles/01_choice_over_effort.md`：先把“选择 vs 努力”的边界说清楚  
 2. `worksheets/decision_one_pager.md`：直接用一页卡做一次真实决策  
-3. `frameworks/04_end_thinking_tangnuo.md`：加入“尽头坐标”，写出退出条件
+3. `frameworks/03_end_thinking_tangnuo.md`：加入“尽头坐标”，写出退出条件
 
 ### 进阶（把决策质量做高）
 1. `frameworks/01_decision_quality.md`：用“过程质量”替代“结果执念”  
-2. `frameworks/02_horizon_map.md`：短/中/长期利益的统一视角  
-3. `frameworks/03_opportunity_and_option_value.md`：机会成本与期权价值（保留选择）
+2. `frameworks/04_horizon_map.md`：短/中/长期利益的统一视角  
+3. `frameworks/02_opportunity_and_option_value.md`：机会成本与期权价值（保留选择）
 4. `frameworks/05_reasoning_toolkit.md`：推理工具箱（材料→结构→推演→行动）
 
 ### 熟练（用案例训练直觉）
@@ -107,7 +109,9 @@ flowchart TD
 ### 你会得到什么（默认交付）
 
 - **1 个 digest**：`sources/YYYY-MM-DD_xxx.md`
-- **1 个 06/Gate 分析**：`world_understanding/xxx.md`
+- **1 个 world_understanding 主文**：`world_understanding/xxx.md`  
+  - 默认用 01/02/03/04/05 做“短而密”的推理与落地  
+  - 若用户点名 06 / 要 BTC 式强结论 / 新 repo 分析 → 必须按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题输出（标题不可省）
 - **1 条可证伪猜想（或更新旧猜想）**：写入 `meta/hypotheses_registry.md`
 - **1 条蒸馏结论入口**：更新 `distilled/opportunity_map.md`（必要时也更新 `distilled/core_hypotheses.md`）
 - **联结检查（小门禁）**：至少命中 1 条旧 `H-XXXX`（支持/反对/不确定三选一），并把交叉链接回写到 `meta/hypotheses_registry.md`（让新证据能升级旧猜想）

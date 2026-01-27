@@ -1,0 +1,5 @@
+.cache/market_radar/
+tools/market_radar/.env
+**/__pycache__/
+**/*.pyc
+**/*.pyo

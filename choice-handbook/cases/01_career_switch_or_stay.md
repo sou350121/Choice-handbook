@@ -12,9 +12,9 @@
 - 你担心选错，导致“不敢动”变成默认选项
 
 本案例用三件工具：
-- `frameworks/02_horizon_map.md`：短中长期六格表
-- `frameworks/03_opportunity_and_option_value.md`：先买期权
-- `frameworks/04_end_thinking_tangnuo.md`：尽头坐标 → 退出条件
+- `frameworks/04_horizon_map.md`：短中长期六格表
+- `frameworks/02_opportunity_and_option_value.md`：先买期权
+- `frameworks/03_end_thinking_tangnuo.md`：尽头坐标 → 退出条件
 
 ---
 

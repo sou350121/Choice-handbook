@@ -11,6 +11,7 @@
    - 如果当时要做选择，最早的停机点是什么？  
    - 放到今天，你应该坚持的那条原则是什么？  
 3) 读完后去看对应的长版：`world_understanding/yearbook/YYYY.md`（有 T0-Analog + roadmap 映射、Endgame、探针）。
+4) 如果你想用“成功/失败案例”做类比门禁：看 `world_understanding/yearbook/README.md` 的 **生死透镜（First-Principles）** 与 **成功/失败案例图谱（Case Atlas）**。
 
 ## 索引（2000–2025）
 

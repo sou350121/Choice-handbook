@@ -1,0 +1,67 @@
+universe: aiinfra_bottleneck_shift
+primary_provider: futu
+fallback_provider: yahoo
+futu_history_enabled: false
+futu_history_top_n: 0
+futu_snapshot_batch: 50
+
+# 主题：AI Infra 瓶颈迁移（电力/散热/网络/封装/内存）
+# 目标：尽早看见“硬约束收紧 → 价格/交期/事故率”这类二阶变化。
+#
+# 注：
+# - US 票通常没有 futu_code：引擎会自动走 Yahoo 兜底（避免 n/a）。
+# - HK/SH/SZ 若你本地有 OpenD，可优先走 Futu。
+tickers:
+  # Compute / Foundry / Packaging
+  - symbol: NVDA
+    name: NVIDIA
+    tags: [compute, gpu]
+    rss: []
+  - symbol: AMD
+    name: AMD
+    tags: [compute, gpu]
+    rss: []
+  - symbol: TSM
+    name: TSMC
+    tags: [foundry, capacity]
+    rss: []
+  - symbol: 0522.HK
+    futu_code: HK.00522
+    name: ASMPT
+    tags: [packaging, equipment, hk]
+    rss: []
+
+  # Memory (the classic “price explosion” transmission channel)
+  - symbol: MU
+    name: Micron
+    tags: [memory, dram]
+    rss: []
+  - symbol: WDC
+    name: Western Digital
+    tags: [memory, storage]
+    rss: []
+
+  # Network / Interconnect
+  - symbol: AVGO
+    name: Broadcom
+    tags: [network, asic]
+    rss: []
+  - symbol: ANET
+    name: Arista Networks
+    tags: [network]
+    rss: []
+
+  # Power / Cooling / Infra
+  - symbol: VRT
+    name: Vertiv
+    tags: [power, cooling]
+    rss: []
+  - symbol: ETN
+    name: Eaton
+    tags: [power]
+    rss: []
+  - symbol: PWR
+    name: Quanta Services
+    tags: [power, infrastructure]
+    rss: []
+

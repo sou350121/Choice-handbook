@@ -1,0 +1,56 @@
+universe: model_price_war_profit_pool_shift
+primary_provider: yahoo
+fallback_provider: yahoo
+futu_history_enabled: false
+futu_history_top_n: 0
+futu_snapshot_batch: 50
+
+# 主题：模型价格战 → 盈利池迁移
+# 直觉：模型趋同/价格下压后，价值更可能沉到：
+# - System of Record（工作流中枢）
+# - 数据围墙 / 结果闭环（可回归提升）
+# - 分发/默认入口（平台规则）
+#
+# 这组 ticker 是“形态代理”，不是投资建议。
+tickers:
+  - symbol: MSFT
+    name: Microsoft
+    tags: [platform, distribution, enterprise]
+    rss: []
+  - symbol: GOOG
+    name: Alphabet
+    tags: [platform, distribution]
+    rss: []
+  - symbol: AMZN
+    name: Amazon
+    tags: [platform, cloud]
+    rss: []
+  - symbol: META
+    name: Meta
+    tags: [platform, distribution, ads]
+    rss: []
+
+  # SoR-ish / workflow
+  - symbol: CRM
+    name: Salesforce
+    tags: [sor, workflow]
+    rss: []
+  - symbol: NOW
+    name: ServiceNow
+    tags: [sor, workflow]
+    rss: []
+  - symbol: ADBE
+    name: Adobe
+    tags: [workflow, creative]
+    rss: []
+
+  # Data layer (often becomes the “walled garden” substrate)
+  - symbol: SNOW
+    name: Snowflake
+    tags: [data, platform]
+    rss: []
+  - symbol: MDB
+    name: MongoDB
+    tags: [data, platform]
+    rss: []
+

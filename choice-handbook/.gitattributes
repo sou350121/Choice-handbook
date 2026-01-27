@@ -1,1 +1,6 @@
-*.md text eol=lf
+* text=auto
+
+# Reduce noisy diffs: keep docs in LF.
+*.md  text eol=lf
+*.mdx text eol=lf
+*.txt text eol=lf

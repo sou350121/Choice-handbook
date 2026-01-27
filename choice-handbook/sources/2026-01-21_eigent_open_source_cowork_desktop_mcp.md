@@ -14,7 +14,7 @@
 - **官网（可核验）**：`https://eigent.ai/`（web search，2026-01-21）
 - **重要不确定性（需特别标注）**：
   - 文中“4 天 4.5K star / 总 7.4K”与我检索到的 repo 星数不一致 → **把该战绩视为未核验宣传**（以 GitHub 当日数据为准）。
-  - 许可：repo 存在 **“Eigent Open Source License”**（并非标准 Apache/MIT），可能有商业使用/人数/场景限制 → 需要按 LICENSE 原文判断。
+  - 许可：已补充一手快照证据（Apache-2.0）。见 `sources/2026-01-22_eigent_github_repo_snapshot.md`。
 
 ---
 
