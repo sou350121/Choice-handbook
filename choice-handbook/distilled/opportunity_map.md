@@ -206,6 +206,24 @@
 - **停机点（First Tripwire）**：电力/并网/许可摩擦显著下降且可回归，扩张长期仍主要卡 GPU；或电价/容量合同不再成为竞争要素。
 - **入口**：`distilled/core_hypotheses.md`（H-0034） / `world_understanding/davos_2026_musk_ai_timeline_abundance_energy_bottleneck.md`
 
+### N) AI 编码杠杆：早期团队的净效率增益更大（H-0036）
+
+- **潜力档位**：更像 **10x（改变人生/组织效率：把“一个人能做的事”扩到小团队级别）**
+- **当前 Gate**：**Gate 2（买信息期权）**
+- **为什么值得跟踪（1 句）**：功能复制变快后，优势迁到“spec/prompt + 抽象/接口化 + 回归/审计”；早期团队更容易把系统塞进上下文，因此净效率提升更显著。
+- **最短探针（30d）**：做“净效率对照表”：3 个早期团队 + 1 个中大型团队，跟踪交付周期/回滚率/告警，并记录是否建立 allowlist/审计/回归。
+- **停机点（First Tripwire）**：交付周期不降但回滚/事故/告警显著上升（净效率为负）；或大公司在无抽象升级下同样获得同等幅度净增益。
+- **入口**：`distilled/core_hypotheses.md`（H-0036） / `world_understanding/qiao_wang_2026_ai_redefines_investing_workflow_and_moats.md`
+
+### O) AI 伙伴/角色扮演：评测基建（misalignment flooring）× 在线偏好学习（去噪 + 多样性护栏）（H-0037）
+
+- **潜力档位**：更像 **10x（若形成可规模化的长会话体验与在线学习闭环）**
+- **当前 Gate**：**Gate 2（买信息期权）**
+- **为什么值得跟踪（1 句）**：陪伴/角色扮演是非可验证任务，真正的“规模化改进”更可能来自评测门禁与在线偏好学习的闭环治理，而不是单点模型尺寸。
+- **最短探针（7d）**：做一份“长会话回归门禁”最小实现：10–30 条 100-turn 会话 + 失败病历字典（世界观漂移/角色混淆/循环/代说/过拒绝等）+ 多样性护栏指标，并定义停机阈值。
+- **停机点（First Tripwire）**：评测提升与真实留存/长会话完成率长期无相关（刷榜/口径偏）；在线学习导致明显模板化/保守化；引入世界状态记忆后错误累积不可回滚导致灾难性坍塌。
+- **入口**：`distilled/core_hypotheses.md`（H-0037） / `world_understanding/minimax_m2_her_roleplay_bench_online_preference_learning_worldplay.md`
+
 ---
 
 ## 风险墙（永远优先：先锁灾难上界）

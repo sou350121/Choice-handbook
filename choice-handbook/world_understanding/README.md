@@ -38,6 +38,8 @@
 - `davos_2026_musk_ai_timeline_abundance_energy_bottleneck.md`：Davos 2026：AI 时间表 × 机器人丰裕 × FSD 监管口径 × 能源瓶颈（把预测变成门禁/探针）
 - `ai_auto_aftermarket_diagnostics_topdon_topfix.md`：AI 汽车后市场：诊断消费化 × 数据飞轮 × 预测性维护（TOPDON/TopFix 样本）
 - `roboparty_roboto_origin_open_source_humanoid_infra.md`：RoboParty「Roboto_Origin」：人形机器人“可复现全栈底座”× 开源基建 × 治理/认证的价值捕获迁移
+- `robotics_agents_art_2025_16_works.md`：2025：机器人与智能体艺术进入公共空间（16 件作品/事件）——把文化现场当作“共处/规训”信号板（含退出/重启/最小核验动作）
+- `qiao_wang_2026_ai_redefines_investing_workflow_and_moats.md`：Qiao Wang 谈 2026：AI 重写投资/工作流；瓶颈迁移到 spec/prompt 与组织抽象（门禁化）
 - `jd_ai_shopping_agentic_commerce.md`：京东「AI 购」：代理人电商入口 × 决策压缩 × 证据透明与反价值捕获治理
 - `world_labs_lightwheel_evaluation_driven_embodied.md`：World Labs × 光轮：评测驱动具身（Benchmark as Infrastructure）× Digital Cousin × 抗 Goodhart 的评测治理
 - `eigent_open_source_cowork_desktop_mcp.md`：Eigent（开源 Cowork）：桌面执行权 × MCP 工具生态 × 本地优先（许可证/安全/平台吞并三重约束）
@@ -46,4 +48,7 @@
 - `q_realign_quantization_deployment_safety_realignment.md`：Q-realign：部署期 PTQ（量化）作为“安全再对齐”的低成本结构干预窗口（激活可分性视角）
 - `xie_qinghai_gold_allocation_vault_migration_sanctions_hedge.md`：谢清海“只买不卖”黄金：金库迁移 × 制裁/冻结风险 × 贵金属作为退出权/保险层（06 版）
 - `vla_handbook_as_knowledge_infra_signal.md`：VLA-Handbook：具身/VLA 的知识基础设施信号（06：Endgame）
+- `minimax_m2_her_roleplay_bench_online_preference_learning_worldplay.md`：陪伴/角色扮演：Role-Play Bench（misalignment flooring）× Online Preference Learning（去噪+多样性护栏）× Worldplay（动态世界状态+多角色协同）
+- `loss_aversion_starting_over_naval.md`：克服“损失厌恶”：把改变做成“登山式路径搜索”（回撤→重启→重复很多次）
+- `relationship_values_nonnegotiables_naval.md`：关系/合作：价值观=艰难抉择里绝不妥协的原则；先看快乐基线，再验价值观对齐（含问题库/停机点）
 

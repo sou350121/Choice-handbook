@@ -43,5 +43,10 @@
 - `2026-01-27_clawdbot_zero_employee_company_newzhiyuan_paste.md`：媒体传播稿 digest（“0 员工公司/AI 员工”叙事 × 执行器风险面；用户粘贴全文）
 - `2026-01-27_life_is_about_experience_spectator_participant_paste.md`：观点 digest（“人生在于体验”陷阱：观众模式 × 多巴胺消费 × 复利被清零；用户粘贴全文）
 - `2026-01-27_embodied_startups_dont_understand_pmf_pricing_orders_delivery_paste.md`：行业观察 digest（具身 PMF：定价=ROI、交付=生死线、订单去噪；用户粘贴全文）
+- `2026-01-27_robotics_agents_art_2025_16_works_paste.md`：媒体盘点 digest（2025 年度 16 件机器人与智能体艺术/事件；用户粘贴全文）
 - `2026-01-27_musk_davos_2026_ai_robotics_energy_space_fsd.md`：公开对谈 digest（Davos 2026：AI 时间表 × 机器人丰裕 × FSD 监管口径 × 能源瓶颈；WEF 逐字稿为一手锚点）
+- `2026-01-28_qiao_wang_alliancedao_2026_ai_investing_google_portfolio_time_allocation_techflow_x.md`：访谈转述 digest（Qiao Wang：AI 重写投资与工作流；为何重仓 Google；用户粘贴+X 链接）
+- `2026-01-29_minimax_m2_her_roleplay_bench_online_rlhf_worldplay.md`：产品/评测/训练闭环 digest（Role-Play Bench：misalignment flooring；Online Preference Learning；Worldplay）
+- `2026-01-30_naval_loss_aversion_starting_over_paste.md`：观点 digest（克服损失厌恶：像登山一样反复回撤，再从 0 到 1；用户粘贴）
+- `2026-01-30_naval_relationship_values_nonnegotiables_paste.md`：观点 digest（幸福关系=两个人本来就快乐；价值观=艰难抉择里绝不妥协的原则；用户粘贴）
 
