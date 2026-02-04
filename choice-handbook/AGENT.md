@@ -6,6 +6,12 @@
 
 你要交付的不是“看起来很对”，而是读者能立刻用的 **强结论 + 规则**：
 
+### 三类输入 → 三条协议（默认你要自己选对工作流）
+
+- **文章/材料**（观点、长文、访谈、论文解读、随笔）→ 走 **Article Processing**：落盘 `sources` digest + `world_understanding` 主文 + 更新索引  
+- **正在演进的真实事件**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**：用 `tools/event_reasoning` 生成 memo/mini06/证据表  
+- **要求“BTC 式百倍/千倍”强结论/终局推演** → 走 **Framework 06**：按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出
+
 ### 约束速查卡（复制这个检查）
 
 写完一篇后，快速检查这 5 项：
@@ -17,6 +23,24 @@
 | **重启条件** | 写清楚"何时再上"（满足哪些证据才允许回来） | 至少写"如果 Y 证据出现就重启" |
 | **验证动作** | 给 7 天内能完成的小成本验证（具体动作 + 预期证据） | 至少给一个"最小探针"（48h/7d） |
 | **事实核验** | 对关键事实不确定时，先 web search；不然降级为观察名单 | 不确定就标注"不确定"，不要编造 |
+
+---
+
+## Article Processing 协议（文章/材料 → sources + world_understanding）
+
+当用户贴的是“文章/材料”，你默认交付：
+
+- **1 个 sources digest**：`sources/YYYY-MM-DD_<slug>_paste.md`（含原文/锚点/可抽取资产/不确定性）  
+- **1 个 world_understanding 主文**：`world_understanding/<slug>.md`（把观点翻译成机制/变量/预测/探针/退出重启）  
+- **索引更新（强制）**：`sources/README.md` + `world_understanding/README.md`
+
+world_understanding 主文的最小骨架（缺一不可）：
+
+- **机制链**：用箭头写 `<问题> -> <机制1> -> <机制2> -> <影响>`  
+- **变量表（≤10）**：哪些一阶变量决定成败？  
+- **情景树（3 条）**：每条必须含 概率/时间窗/触发条件/**observables（可观测指标）**  
+- **48h / 7d / 30d 探针**：用最小成本去拿“能改概率”的证据  
+- **退出条件 + 重启条件**：用可观测阈值写死（不是情绪）
 
 ---
 
@@ -54,7 +78,8 @@ Cursor 用户通常不会先写 YAML。你需要把交互做成“自然语言 �
 
 如果用户没给齐，你必须追问并补齐到 YAML：
 
-- `thesis.scenarios`：至少 3 个（base/bull/bear），带概率 + 时间窗 + 触发条件
+- `event.event_type`：优先在 `regulatory / macro_policy / capital_allocation_signal / supply_demand_shock / tech_breakthrough` 中选一类（不确定则写 n/a 并说明理由）
+- `thesis.scenarios`：至少 3 个（base/bull/bear），带概率 + 时间窗 + 触发条件 + **observables（可观测指标）**
 - `thesis.tripwire` / `thesis.bound`：可观测、可执行（文件/名单/条款/合同层信号）
 - `thesis.probes`：48h/7d/30d 的最小探针（去拿“能改变概率”的证据）
 

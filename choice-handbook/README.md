@@ -11,15 +11,31 @@
 
 ---
 
-## 快速开始（只看这一段就够）
+## Cursor Quickstart（只看这一段就够 / 复制粘贴就能用）
 
-1) **先看蒸馏层入口**：`distilled/README.md`  
-2) **需要“年代参照系”时**：`distilled/yearbook/README.md`（2000–2025 年度复盘：短版入口）  
-3) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
-4) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
-5) **你在处理“正在演进的真实事件”（投资/政策/监管）**：从 `tools/event_reasoning/README.md` 进入（生成 1 页 IC memo + mini-06 + 证据表）  
-6) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
-7) **不知道该用哪个框架时**：看 `frameworks/README.md` 的“框架路由（默认顺序）”
+### 1) 真实事件推理（投资/政策/监管/公司资本动作）→ `/event-reasoning`
+
+在 Cursor Chat 输入：`/event-reasoning`，把事件描述 + 链接贴进去即可。  
+你会得到 3 个落盘文件（证据表 / IC memo / mini-06），并且每个情景都带 `observables`（可观测指标）。
+
+### 2) 新文章/材料变资产（sources → world_understanding）→ `/article-digest`
+
+在 Cursor Chat 输入：`/article-digest`，把文章全文（或要点）+ 链接贴进去即可。  
+你会得到：`sources` digest + `world_understanding` 主文 + 两个索引更新。
+
+### 3) “BTC 式百倍/千倍”极限推演（强结论门禁）→ Framework 06
+
+直接说：“请按 `choice-handbook/frameworks/06_time_travel_endgame_simulator.md` 的固定标题完整输出（不可省标题），并给 Gate/Tripwire/Bound/最短探针。”
+
+---
+
+## 工作流路由器（你不用解释你要我做什么）
+
+- **你给的是“文章/观点/材料”** → 用 `/article-digest`（把材料变资产）  
+- **你给的是“正在演进的真实事件”（监管/政策/资本配置/供需/技术拐点）** → 用 `/event-reasoning`（把不确定未来变成情景树+停机点）  
+- **你要 BTC 式强结论/穿越推演/终局地图** → 用 Framework 06（把强结论写成可证伪门禁）
+
+> 命令文件位置：`.cursor/commands/`（你可以在 Cursor Chat 里直接调用）
 
 ---
 

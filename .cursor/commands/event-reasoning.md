@@ -10,7 +10,7 @@
 1) 把我的描述整理成一个输入 YAML，落盘到：`choice-handbook/tools/event_reasoning/examples/<event_id>.yaml`  
 2) 如果信息不够，请只追问“最少 3 个”缺口：  
    - market（市场范围）  
-   - 3 个情景（base/bull/bear：概率/时间窗/触发条件）  
+   - 3 个情景（base/bull/bear：概率/时间窗/触发条件 + observables）  
    - Tripwire/Bound（可观测、可执行的停机点）  
 3) 把我给的链接写进 `evidence`。如果是反证（例如仍在合格清单/仍在项目落地），给该条加：`tags: [counter_evidence, ...]`  
 4) 运行：`python choice-handbook/tools/event_reasoning/src/event_reasoning/run.py --input <yaml_path>`  
