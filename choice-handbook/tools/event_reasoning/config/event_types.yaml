@@ -1,0 +1,120 @@
+event_types:
+  regulatory:
+    description: Regulatory_or_policy_change_affecting_market_access
+    evidence_sources:
+      - regulator_notice
+      - congressional_letter
+      - official_press_release
+      - court_filing
+    counter_paths:
+      - enforcement_delayed_or_narrowed
+      - scope_limited_to_specific_use_cases
+      - compliance_mitigation_reduces_impact
+    case_atlas:
+      primary: "yearbook/case_atlas_public_policy_state_capacity_06.md"
+      secondary: "yearbook/case_atlas_platform_wars_06.md"
+
+  geopolitics:
+    description: Sanctions_export_controls_or_cross_border_restrictions
+    evidence_sources:
+      - government_notice
+      - export_control_rule
+      - sanctions_list
+      - embassy_statement
+    counter_paths:
+      - carve_outs_or_licenses
+      - third_country_reroute
+      - demand_shift_to_alternative_markets
+    case_atlas:
+      primary: "yearbook/case_atlas_supply_chain_manufacturing_06.md"
+      secondary: "yearbook/case_atlas_financial_crisis_06.md"
+
+  supply_chain:
+    description: Capacity_or_certification_bottlenecks
+    evidence_sources:
+      - supplier_notice
+      - lead_time_update
+      - certification_delay
+      - recall_report
+    counter_paths:
+      - second_source_qualified
+      - inventory_buffer_absorbs_shock
+      - demand_softening_offsets_shortage
+    case_atlas:
+      primary: "yearbook/case_atlas_supply_chain_manufacturing_06.md"
+      secondary: "yearbook/case_atlas_financial_platform_supplychain_framework06.md"
+
+  macro_policy:
+    description: Rate_policy_fiscal_or_monetary_shifts
+    evidence_sources:
+      - central_bank_statement
+      - official_data_release
+      - policy_speech
+    counter_paths:
+      - policy_reversal
+      - market_priced_in
+      - transmission_lag_longer_than_expected
+    case_atlas:
+      primary: "yearbook/case_atlas_capital_markets_exchanges_06.md"
+      secondary: "yearbook/case_atlas_financial_crisis_06.md"
+
+  tech_breakthrough:
+    description: Material_technology_or_product_inflection
+    evidence_sources:
+      - peer_reviewed_paper
+      - product_launch
+      - benchmark_release
+      - patent_filing
+    counter_paths:
+      - reproducibility_failure
+      - cost_curve_not_improving
+      - integration_blockers
+    case_atlas:
+      primary: "yearbook/case_atlas_data_observability_devops_06.md"
+      secondary: "yearbook/case_atlas_industrial_automation_robotics_06.md"
+
+  fraud_or_misreporting:
+    description: Accounting_or_disclosure_irregularities
+    evidence_sources:
+      - regulator_investigation
+      - audit_opinion
+      - whistleblower_report
+    counter_paths:
+      - allegations_unsubstantiated
+      - impact_limited_to_subsidiary
+      - remediation_and_controls_strengthened
+    case_atlas:
+      primary: "yearbook/case_atlas_financial_crisis_06.md"
+      secondary: "yearbook/case_atlas_capital_markets_exchanges_06.md"
+
+  capital_allocation_signal:
+    description: Capital_allocation_actions_that_reprice_supply_risk_or_trust
+    evidence_sources:
+      - hkex_pdf
+      - company_announcement
+      - next_day_disclosure_return
+      - board_resolution
+    counter_paths:
+      - buyback_not_executed_or_terminated_early
+      - disposal_plan_not_executed_or_slow
+      - fundamentals_dominate_signal
+    case_atlas:
+      primary: "yearbook/case_atlas_capital_markets_exchanges_06.md"
+      secondary: "yearbook/case_atlas_public_policy_state_capacity_06.md"
+
+  supply_demand_shock:
+    description: Supply_demand_imbalance_or_price_shock_with_inventory_cycle
+    evidence_sources:
+      - official_data_release
+      - price_index
+      - inventory_report
+      - company_guidance
+      - shipping_rate
+      - channel_check
+    counter_paths:
+      - demand_rebounds_or_substitution
+      - supply_response_faster_than_expected
+      - inventory_cycle_shorter_or_priced_in
+    case_atlas:
+      primary: "yearbook/case_atlas_supply_chain_manufacturing_06.md"
+      secondary: "yearbook/case_atlas_capital_markets_exchanges_06.md"

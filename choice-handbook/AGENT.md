@@ -18,6 +18,46 @@
 | **验证动作** | 给 7 天内能完成的小成本验证（具体动作 + 预期证据） | 至少给一个"最小探针"（48h/7d） |
 | **事实核验** | 对关键事实不确定时，先 web search；不然降级为观察名单 | 不确定就标注"不确定"，不要编造 |
 
+---
+
+## 真实事件推理（Event Reasoning）协议（面向 Cursor 用户，强制）
+
+当用户的目标是“用推理预测正在演进的真实事件”（常见：投资/政策/监管/制裁/出口管制/地缘政治冲击），优先用：
+
+- `tools/event_reasoning/README.md`
+- `tools/event_reasoning/src/event_reasoning/run.py`
+
+### 交互契约（Cursor 用户视角）
+
+Cursor 用户通常不会先写 YAML。你需要把交互做成“自然语言 → 可执行产物”：
+
+- **你必须产出**：一个 `tools/event_reasoning/examples/<event_id>.yaml`
+- **你必须运行**：`run.py --input <yaml>`
+- **你必须回传**：3 个输出文件路径（sources digest / IC memo / mini06）
+
+### Gate 的口径（必须写清，防误读）
+
+- **Gate = 注意力/仓位口径**，不是“官方确认/已经坐实”。
+- Gate 由两类证据共同决定：
+  - **Support evidence**：支持主论点的证据强度
+  - **Counter evidence**：反证主论点的证据强度（通过 `counter_evidence` tag 标记）
+- **强反证存在时不得 Gate 3**：即使支持证据很强，只要出现同等级强反证，就必须降到 Gate 2（继续跟踪 + 条件动作）。
+
+### 反证标注规则（强制）
+
+以下类型通常是“反证/制衡信号”，默认应打 `counter_evidence`（除非你能解释它实际上在支持主论点）：
+
+- 仍在 “eligible / qualified / approved product list / vetted list” 的公开清单
+- 仍在公共项目/政府补贴项目中落地的可核验材料（新闻稿/项目公告/招标结果等）
+
+### 最小字段门槛（缺了就不能输出预测）
+
+如果用户没给齐，你必须追问并补齐到 YAML：
+
+- `thesis.scenarios`：至少 3 个（base/bull/bear），带概率 + 时间窗 + 触发条件
+- `thesis.tripwire` / `thesis.bound`：可观测、可执行（文件/名单/条款/合同层信号）
+- `thesis.probes`：48h/7d/30d 的最小探针（去拿“能改变概率”的证据）
+
 ### 核心要求（详细版）
 
 - **结论先行**：强烈推荐 / 强烈不推荐 / 观察名单（写置信度：20/50/80）+ 适用边界

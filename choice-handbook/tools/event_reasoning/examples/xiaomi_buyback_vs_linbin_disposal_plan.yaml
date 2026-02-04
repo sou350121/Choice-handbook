@@ -1,0 +1,122 @@
+event:
+  id: xiaomi_buyback_vs_linbin_disposal_plan
+  title: 小米：自动股份购回（HK$25亿）与林斌减持计划（US$20亿）引发的“口径/信号”争议
+  date: 2026-02-03
+  scope: 以两条公告为事实锚点，评估其对股价/情绪/资金面的真实传导，而非停留在“港元vs美元”的叙事
+  market: hk_equity_1810_with_retail_sentiment
+  event_type: capital_allocation_signal
+  tags:
+    - capital_markets
+    - buyback
+    - insider
+    - disclosure
+    - sentiment
+    - hkex_rules
+  analogs:
+    - yearbook/case_atlas_capital_markets_exchanges_06.md
+    - yearbook/case_atlas_platform_wars_06.md
+
+thesis:
+  main_thesis: >
+    “港元回购/美元减持”的争议本质不是币种，而是市场在问：公司在用回购传递信心与股东回报，
+    同时核心高管通过减持计划抽取流动性去做投资基金，这两条信号叠加会不会形成持续的“供给过hang + 估值折价”。
+    投资上应把注意力从叙事转回可观测变量：回购的真实执行节奏/注销机制、减持计划的启动时点与实际卖出路径、
+    以及随后的业绩与指引是否支持“回购=低估”的隐含假设。
+  confidence: 0.58
+  killer_assumptions:
+    - 回购计划的规模/执行足以对冲情绪与供给冲击（若执行缓慢或中止，则“信号”失效）
+    - 林斌减持计划最终会以市场可承受的节奏执行（若集中抛售/提前启动，则过hang显著）
+    - 市场对公司基本面（手机×IoT×EV）预期在未来 1-2 个财报窗口内不会进一步恶化（否则回购更像“托底”而非“低估”）
+  market_map:
+    channels:
+      - 公告口径（HK$回购 vs US$减持）-> 零售投资者的直觉比较 -> 情绪/舆情波动 -> 短期资金流与换手率上升
+      - 自动回购（独立经纪商+预定参数+注销）-> 流通股收缩/边际买盘 -> 对冲卖压（若执行力度足够）
+      - 高管减持计划（上限与时间窗）-> 供给预期/过hang -> 估值折价与风险溢价上升
+      - 后续业绩公告/限制期规则豁免 -> 回购能否“系统化持续” -> 市场对治理与资本配置的再定价
+    winners:
+      - 若回购持续且基本面稳定：长期股东（每股权益提升）
+    losers:
+      - 若减持提前/集中且基本面走弱：追逐“回购托底”的短线资金
+    watchlist:
+      - HKEX Next Day Disclosure Return：回购数量/金额/平均价格（验证执行强度）
+      - 回购股份是否如公告口径注销（以及注销节奏）
+      - 林斌/相关实体的后续权益披露（是否出现实际卖出、是否提前于市场预期）
+      - 2025 年度业绩公告前后的限制期安排与豁免是否持续有效
+      - 公司现金与投资组合变化（回购能力 vs 资本开支/EV 投入/基金设立）
+  scenarios:
+    - name: Base_case_回购执行但不足以扭转趋势_减持不立即发生
+      probability: 60%
+      time_window: 1-6_months
+      conditions: 回购按计划执行但节奏温和；减持计划在披露框架内推进但未出现集中卖压；基本面无重大惊喜
+      description: 情绪争议逐步钝化，股价更多跟随财报与行业 β；回购提供“下行缓冲”但不构成反转充分条件
+      impact: 估值折价缓慢收敛或横盘，适合 Gate2 的“跟踪+条件动作”
+      observables:
+        - Next Day Disclosure Return 显示回购以“接近公告口径的节奏”持续执行（金额/数量/均价可追踪）
+        - 未出现与林斌相关的实际卖出披露（或卖出节奏极慢、分散）
+        - 财报/指引无进一步下修（至少不出现“基本面恶化+回购托底”叙事）
+    - name: Downside_case_减持提前或集中_回购执行弱_基本面负面
+      probability: 25%
+      time_window: 2-12_weeks
+      conditions: 出现实际卖出/提前启动或市场认为卖压不可控；回购执行低于预期或暂停；财报/指引走弱
+      description: 过hang叠加基本面风险，市场把回购解读为“托底”而非“低估”，风险溢价抬升
+      impact: 价格下台阶 + 波动上升；需要更严格的 Bound（止损/撤退）
+      observables:
+        - 出现实际减持披露且节奏明显高于市场可承受预期（集中/连续/与其他核心人物同步）
+        - 回购披露断档/显著弱于口径，或公告/规则层面出现提前终止信号
+        - 财报或指引显著走弱（利润/现金流/EV 投入压力导致“回购弹药”被质疑）
+    - name: Upside_case_回购强执行_注销明确_基本面验证_争议反转为治理加分
+      probability: 15%
+      time_window: 3-9_months
+      conditions: 回购节奏强且持续、注销机制清晰；减持节奏温和且透明；财报兑现或指引改善
+      description: 市场将事件从“币种口径争议”降级为噪声，把回购视为资本配置纪律的加分项
+      impact: 估值折价回撤、风险溢价下降，股价修复
+      observables:
+        - 回购强度持续（在限制期也能系统化执行），且回购股份注销/库存股口径透明
+        - 高管减持计划被市场验证为“慢、透明、可承受”（供给过hang下修）
+        - 关键经营指标/指引改善，使市场重新定价为“回购=低估/资本回报纪律”
+  tripwire: 未来 10 个交易日的回购披露显示执行显著弱于口径（或计划提前终止）/出现高管实际卖出且节奏超预期
+  bound: 出现集中/不透明的实际减持（或多名高管/大股东同步减持）并叠加基本面负面（利润/指引下修），导致“回购托底”逻辑失效
+  spiral: 口径争议 -> 情绪恶化 -> 卖压+过hang -> 估值下修 -> 回购被动托底/弹药不足 -> 再次恶化
+  action:
+    default: 以 Gate 2 处理：把“叙事”降级为噪声，改为跟踪可观测变量（回购强度/注销/实际减持披露/财报）
+    if_tripwire: 收缩风险敞口或加对冲；优先确认回购执行与减持是否进入现实卖压阶段
+    if_bound: 视为 Gate 3（负面确认）：按供给冲击+基本面恶化的组合风险处理（撤退/止损/重估）
+    hedges:
+      - 用仓位上限/分层建仓管理波动（若无衍生品）
+      - "Pair trade（概念）": "资本回报更强/治理更稳的同类标的 vs 供给过hang更高的标的（取决于你的可交易池）"
+  probes:
+    48h: 把两条公告补齐到一手 PDF（尤其回购计划），并拉取最近 10 个交易日的 Next Day Disclosure Return 统计回购节奏
+    7d: 建立“净回购 vs 预期减持上限”的时间序列对照（按周更新），并标注任何实际权益披露变化
+    30d: 以财报窗口为锚点复盘：回购是否穿越限制期、现金/投资变化是否支持持续回购、市场是否重新定价治理信号
+
+uncertainties:
+  - 回购计划一手 PDF 尚未稳定命中（目前为公告全文转载版本）；若后续找到一手 PDF，需要替换证据等级
+  - 林斌减持计划公告中出现 “from December 2026” 的表述可能影响“启动时点”的解读，需要等待后续澄清/权益披露验证
+  - 仅凭回购/减持信号无法解释中期趋势，核心仍是基本面与预期（财报/指引/EV 交付与利润结构）
+
+evidence:
+  - time: 2026-02-03
+    source_type: media_article
+    url: sources/2026-02-03_xiaomi_buyback_hkd_linbin_disposal_usd_unit_mismatch_paste.md
+    claim: 媒体将回购（HK$25亿）与减持计划（US$20亿）并置，引发“口径/误导/稳定信心”的争议
+    quote_or_fact: 文章核心争点是“港元回购 vs 美元减持”的直觉比较，以及对散户误判的担忧
+    credibility: low
+    verifiability: narrative_only
+    tags: [sentiment, retail, secondary]
+  - time: 2026-01-22
+    source_type: company_announcement_reprint
+    url: https://www.cfi.net.cn/p20260122001359.html
+    claim: 小米公告自动股份购回计划（上限 HK$25 亿；独立经纪商按预定参数执行；含上市规则豁免说明）
+    quote_or_fact: 公告全文描述回购规模、起止日期、10.06(2)(e) 豁免、以及回购股份将注销
+    credibility: medium
+    verifiability: reprint_of_primary_text__need_hkex_pdf
+    tags: [buyback, hkex_rules, waiver, secondary]
+  - time: 2025-12-28
+    source_type: hkex_pdf
+    url: https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1228/2025122800245.pdf
+    claim: 林斌披露减持计划：单个 12 个月期不超 US$5 亿，总计不超 US$20 亿；用于设立投资基金公司
+    quote_or_fact: PDF 原文给出金额上限与用途口径，并提示股东谨慎交易
+    credibility: high
+    verifiability: read_primary_pdf
+    tags: [insider, disclosure, primary]
+

@@ -226,6 +226,14 @@
 
 ---
 
+<!-- event_reasoning:auto:autel_energy_us_investigation:start -->
+### US_Investigates_Autel_Energy_EV_Chargers（Event Reasoning: autel_energy_us_investigation）
+- **当前 Gate**：Gate 2
+- **最短探针**：48h: Track_official_agency_statements_or_new_letters / 7d: Check_customer_cancellations_or_procurement_pauses / 30d: Monitor_policy_actions_affecting_NEVI_or_federal_procurement
+- **停机点（First Tripwire）**：Formal_investigation_or_entity_list_designation_initiated_by_Commerce_or_Defense
+- **入口**：`sources/2025-05-19_event_reasoning_autel_energy_us_investigation.md` / `world_understanding/event_reasoning_runs/2025-05-19_autel_energy_us_investigation_mini06.md`
+<!-- event_reasoning:auto:autel_energy_us_investigation:end -->
+
 ## 风险墙（永远优先：先锁灾难上界）
 
 这些不是“机会”，但它们决定你能否活到下一次机会：

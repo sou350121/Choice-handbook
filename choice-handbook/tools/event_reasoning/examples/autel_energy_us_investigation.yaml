@@ -1,0 +1,81 @@
+event:
+  id: autel_energy_us_investigation
+  title: US_Investigates_Autel_Energy_EV_Charger_National_Security
+  date: 2025-05-19
+  scope: US_national_security_review_on_EV_charger_vendor
+  market: global_multi
+  event_type: regulatory
+  tags:
+    - regulatory
+    - geopolitics
+    - critical_infra
+    - ev_charging
+  analogs:
+    - yearbook/case_atlas_public_policy_state_capacity_06.md
+    - yearbook/case_atlas_supply_chain_manufacturing_06.md
+
+thesis:
+  main_thesis: US_security_scrutiny_of_Chinese_EV_charging_equipment_increases_market_access_risk_for_Autel_Energy_and_similar_vendors
+  confidence: 0.5
+  killer_assumptions:
+    - US_agencies_escalate_review_into_procurement_or_entity_list_actions
+    - US_market_is_material_enough_to_change_growth_trajectory
+    - Alternatives_exist_for_buyers_to_switch_or_delay_orders
+  counter_hypotheses:
+    - Investigation_stalls_or_scope_is_narrowed
+    - Localization_and_compliance_measures_mitigate_risk
+    - Demand_shifts_to_other_regions_offset_US_risk
+  tripwire: Formal_investigation_or_entity_list_designation_initiated_by_Commerce_or_Defense
+  bound: Federal_or_state_procurement_ban_or_NEVI_ineligibility_is_announced
+  spiral: Investigation_signal -> procurement_freeze -> channel_retrenchment -> revenue_drop -> further_scrutiny
+  probes:
+    48h: Track_official_agency_statements_or_new_letters
+    7d: Check_customer_cancellations_or_procurement_pauses
+    30d: Monitor_policy_actions_affecting_NEVI_or_federal_procurement
+
+uncertainties:
+  - Actual_enforcement_timeline_is_unknown
+  - Relationship_between_Autel_Energy_and_Autel_Robotics_may_be_interpreted_differently_by_regulators
+  - US_demand_elasticity_vs_EU_or_other_markets_needs_validation
+
+evidence:
+  - time: 2025-05-19
+    source_type: congressional_letter
+    url: https://selectcommitteeontheccp.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/05.19.25_Autel%20Congressional%20Investigation%20letter_FINAL.pdf
+    claim: Lawmakers_request_investigation_and_possible_entity_list_designation_for_Autel_Energy
+    quote_or_fact: Letter_urges_Commerce_and_Defense_to_investigate_Autel_Energy_and_consider_Entity_List_and_1260H
+    credibility: high
+    verifiability: read_primary_pdf
+    tags: [regulatory, national_security]
+  - time: 2025-05-19
+    source_type: press_release
+    url: https://blackburn.senate.gov/2025/5/china/blackburn-moolenaar-call-for-investigation-into-chinese-ev-charging-startup
+    claim: Public_call_for_investigation_highlights_data_and_grid_risk
+    quote_or_fact: Press_release_claims_EV_chargers_access_sensitive_driver_data_and_critical_infrastructure
+    credibility: medium
+    verifiability: read_official_press_release
+    tags: [regulatory, national_security]
+  - time: 2024-06-18
+    source_type: federal_register
+    url: https://www.federalregister.gov/documents/2024/06/18/2024-13148/implementation-of-additional-sanctions-against-russia-and-belarus-under-the-export-administration
+    claim: Autel_Robotics_entity_added_to_BIS_Entity_List
+    quote_or_fact: Federal_Register_rule_states_Shenzhen_Daotong_Intelligent_Aviation_Technology_Co_Ltd_(a.k.a._Autel_Robotics)_added_to_Entity_List
+    credibility: high
+    verifiability: read_primary_federal_register
+    tags: [export_control, entity_list, primary]
+  - time: 2025-01-07
+    source_type: federal_register
+    url: https://www.govinfo.gov/content/pkg/FR-2025-01-07/html/2025-00070.htm
+    claim: DoD_lists_Autel_Robotics_as_Chinese_military_company_under_1260H
+    quote_or_fact: Federal_Register_notice_lists_Autel_Robotics_Co_Ltd_as_Chinese_military_company
+    credibility: high
+    verifiability: read_primary_federal_register
+    tags: [national_security, 1260H, primary]
+  - time: 2023-10-05
+    source_type: company_press_release
+    url: https://www.prnewswire.com/news-releases/autel-energy-starts-ev-charger-production-in-north-carolina-plant-301947868.html
+    claim: Autel_Energy_starts_US_production_and_claims_NEVI_ready_compliance
+    quote_or_fact: Press_release_states_NC_plant_producing_DC_fast_chargers_and_BABA_compliance
+    credibility: medium
+    verifiability: read_company_release
+    tags: [mitigation, localization]

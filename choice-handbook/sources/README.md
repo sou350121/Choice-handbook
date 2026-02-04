@@ -49,4 +49,15 @@
 - `2026-01-29_minimax_m2_her_roleplay_bench_online_rlhf_worldplay.md`：产品/评测/训练闭环 digest（Role-Play Bench：misalignment flooring；Online Preference Learning；Worldplay）
 - `2026-01-30_naval_loss_aversion_starting_over_paste.md`：观点 digest（克服损失厌恶：像登山一样反复回撤，再从 0 到 1；用户粘贴）
 - `2026-01-30_naval_relationship_values_nonnegotiables_paste.md`：观点 digest（幸福关系=两个人本来就快乐；价值观=艰难抉择里绝不妥协的原则；用户粘贴）
+- `2026-01-31_think_like_a_horse_trust_autonomy_micro_effort_paste.md`：观点 digest（信任=安全+一致+自主；慢慢索取，快快给予；TRUSt 阶梯；用户粘贴）
+- `2026-01-31_positive_psychology_happiness_roots_in_trauma_zocalo_translation_paste.md`：文章 digest（积极心理学/幸福研究的“创伤与战争起源”叙事；含原文链接；用户粘贴译文）
+- `2026-02-01_moltbook_ai_agent_social_network_hype_risk_paste.md`：事件/平台 digest（moltbook：AI agents 社交网络；热度叙事 vs 可核验口径；安全/投机风险；用户粘贴+快速核验）
+- `2026-02-01_naval_bezos_anxiety_stress_action_paste.md`：观点 digest（焦虑/压力→识别问题→最小行动；用户粘贴）
+- `2026-02-03_next_trillion_market_cap_stock_value_management_paste.md`：观点/书摘 digest（“下一只千亿股/市值管理”叙事拆解：利润×PE、现金流、专注；用户粘贴，含待核验主张）
+- `2026-02-03_lijigang_thinking_depth_two_dimensions_paste.md`：观点 digest（李继刚：思考深=推理链长度；思考准=思考角度；借大模型反修自身；用户粘贴）
+- `2026-02-03_xiaomi_buyback_hkd_linbin_disposal_usd_unit_mismatch_paste.md`：市场/公司事件 digest（小米：回购 HK$25 亿 vs 林斌减持计划 US$20 亿；用户粘贴全文 + 一手证据锚点）
+- `2026-02-04_naval_unteachable_lessons_recontextualize_maxims_paste.md`：访谈节选 digest（纳瓦尔：大道理需结合当下情境重写；把格言变规则；用户粘贴）
+- `2026-02-04_palantir_text_to_sql_no_memory_ontology_oag_paste.md`：工程/产品 digest（Palantir 式问数：不让 AI 回忆数字，而是语义层×工具调用×全链路审计；用户粘贴 + 一手锚点）
+- `2025-05-19_event_reasoning_autel_energy_us_investigation.md`：事件推理证据表（Autel Energy EV 充电桩的美方审查风险；证据链+不确定性）
+- `2026-02-03_event_reasoning_xiaomi_buyback_vs_linbin_disposal_plan.md`：事件推理证据表（小米：自动回购计划 vs 林斌减持计划；证据链+不确定性+可观测探针）
 

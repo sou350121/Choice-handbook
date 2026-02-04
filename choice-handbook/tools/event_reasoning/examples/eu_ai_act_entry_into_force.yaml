@@ -1,0 +1,105 @@
+event:
+  id: eu_ai_act_entry_into_force
+  title: EU_AI_Act_Entry_Into_Force_and_Staged_Applicability
+  date: 2024-08-01
+  scope: EU-wide_AI_regulation_enters_into_force_and_sets_staged_compliance_deadlines
+  market: global_multi
+  event_type: regulatory
+  tags:
+    - regulatory
+    - ai
+    - compliance
+    - eu
+  analogs:
+    - yearbook/case_atlas_public_policy_state_capacity_06.md
+    - yearbook/case_atlas_payments_fintech_rails_06.md
+
+thesis:
+  main_thesis: >
+    EU AI Act enters into force and creates a staged compliance timeline; the near-term investable impact is not "EU AI stops",
+    but a predictable shift toward compliance tooling, documentation-heavy deployment, and a moat for firms that can operationalize
+    governance at scale, while smaller vendors face higher friction and delayed go-to-market in regulated use-cases.
+  confidence: 0.6
+  killer_assumptions:
+    - EU_enforcement_is_real_and_not_purely_symbolic (meaningful fines / audits / procurement rules)
+    - Buyers_in_regulated_sectors_treat_AI_Act_as_a_binding_risk_constraint (procurement + legal gating)
+    - Compliance_tooling_spend_becomes_a_line_item (not absorbed silently with no vendor impact)
+  market_map:
+    channels:
+      - AI_Act_deadlines -> procurement_checklists + model_cards + data_governance -> time_to_ship_increase
+      - Compliance_burden -> demand_for_GRC/compliance_workflows + audit + red_teaming -> new_budget_lines
+      - Regulatory_clarity -> incumbents_with_legal/infra_scale gain_relative_advantage over_small_vendors
+    winners:
+      - AI_governance/compliance_software (policy-as-code, model_registry, audit_trails)
+      - Consulting/audit/red-teaming providers that operationalize conformity assessment
+      - Large platforms with mature MLops + legal capacity (relative advantage)
+    losers:
+      - Small AI startups selling into regulated sectors without compliance muscle
+      - Vendors relying on opaque training data / weak documentation
+    watchlist:
+      - EU_regulated_buyers (banks/insurance/healthcare/public_sector procurement)
+      - AI_governance_tooling vendors and audit ecosystems
+  scenarios:
+    - name: Base_case_compliance_market_forms
+      probability: 55%
+      time_window: 6-18_months
+      conditions: Regulators_publish_guidance; buyers_update_procurement; first enforcement cases appear
+      description: Compliance becomes a gating checklist; spending shifts to tooling + services; deployment slows in high-risk domains
+      impact: Compliance stack & services benefit; marginal AI vendors face longer sales cycles
+    - name: Bull_case_regulatory_clarity_creates_moats
+      probability: 25%
+      time_window: 12-24_months
+      conditions: Strong enforcement and standardized conformity assessment frameworks
+      description: Clear rules reduce uncertainty; scale players win; compliant products gain trust and adoption
+      impact: Incumbents/platforms outperform; compliant AI products penetrate regulated markets faster
+    - name: Bear_case_symbolic_enforcement
+      probability: 20%
+      time_window: 6-24_months
+      conditions: Weak enforcement; fragmented interpretation across member states; long delays
+      description: Rules exist but are not enforced consistently; buyers treat it as paperwork only
+      impact: Limited spend impact; thesis shifts to "noise" unless enforcement signals rise
+  tripwire: Publication_of_binding_EU-level_implementation_guidance + first high-profile enforcement/audit announcements
+  bound: Clear evidence that enforcement is symbolic (no cases, no audits, no procurement gating) for >18 months
+  spiral: Compliance_fear -> deployment_freeze -> delayed revenue -> reduced model investment -> falling competitiveness -> more reliance on incumbents
+  action:
+    default: Track as Gate 2; build a watchlist of compliance stack beneficiaries and monitor procurement language changes
+    if_tripwire: Upgrade to Gate 3; consider exposure to compliance ecosystem and scale incumbents; reduce exposure to fragile vendors in regulated GTM
+    if_bound: Downgrade to Gate 1; treat as non-event for markets; stop spending time except for periodic checks
+    hedges:
+      - Pair trade: compliance-stack beneficiaries vs fragile regulated-sector AI vendors (conceptual)
+      - Keep optionality: avoid directional bets until enforcement signals appear
+  probes:
+    48h: Capture the exact legal text on entry-into-force + staged applicability dates; map to a simple calendar
+    7d: Scan procurement policy updates in EU-regulated sectors for AI Act references (banks/health/public sector)
+    30d: Track whether regulators publish practical conformity assessment guidance and whether any audits are announced
+
+uncertainties:
+  - Exact staged applicability dates for each article set should be verified in the regulation text (do not rely on memory)
+  - Enforcement intensity and member-state divergence can dominate outcomes
+  - Market impact depends on where compliance spend accrues (in-house vs vendor ecosystem)
+
+evidence:
+  - time: 2024-07-12
+    source_type: eur_lex
+    url: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
+    claim: EU_AI_Act_published_in_Official_Journal_with_entry_into_force_and_staged_applicability
+    quote_or_fact: "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal..."
+    credibility: high
+    verifiability: read_primary_legal_text
+    tags: [regulatory, primary]
+  - time: 2024-05-21
+    source_type: council_press_release
+    url: https://www.consilium.europa.eu/en/press/press-releases/2024/05/21/artificial-intelligence-ai-act-council-gives-final-green-light-to-the-first-worldwide-rules-on-ai/
+    claim: Council_final_approval_of_AI_Act_and_summary_of_staged_application
+    quote_or_fact: Council press release describes staged application and regulatory objectives
+    credibility: medium
+    verifiability: read_official_press_release
+    tags: [regulatory, official]
+  - time: 2024-03-13
+    source_type: eu_parliament_press_release
+    url: https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-first-ever-rules-for-safe-and-transparent-ai
+    claim: EP_adopts_AI_Act_and outlines timeline for bans, GPAI, and high-risk rules
+    quote_or_fact: EP press release summarizes ban timeline and high-risk requirements
+    credibility: medium
+    verifiability: read_official_press_release
+    tags: [regulatory, official]

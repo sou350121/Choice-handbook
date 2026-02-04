@@ -51,4 +51,13 @@
 - `minimax_m2_her_roleplay_bench_online_preference_learning_worldplay.md`：陪伴/角色扮演：Role-Play Bench（misalignment flooring）× Online Preference Learning（去噪+多样性护栏）× Worldplay（动态世界状态+多角色协同）
 - `loss_aversion_starting_over_naval.md`：克服“损失厌恶”：把改变做成“登山式路径搜索”（回撤→重启→重复很多次）
 - `relationship_values_nonnegotiables_naval.md`：关系/合作：价值观=艰难抉择里绝不妥协的原则；先看快乐基线，再验价值观对齐（含问题库/停机点）
+- `think_like_a_horse_trust_autonomy_micro_effort.md`：《像马一样思考》：信任不是控制——用“安全+一致+自主”建立合作（TRUSt 阶梯；慢慢索取，快快给予）
+- `positive_psychology_happiness_roots_in_trauma.md`：为何“幸福科学”源自创伤与战争：从止血到繁荣的研究迁移（含门禁/探针）
+- `moltbook_ai_agent_social_network_endgame_06.md`：Moltbook：AI agents 社交网络会走向“BTC 式百倍/千倍机会”吗？（06：分档+Gate+停机点+最短探针）
+- `naval_bezos_anxiety_stress_action.md`：纳瓦尔×贝索斯：焦虑/压力的解法是“行动”（把观点变成可执行门禁：Tripwire/Bound/最短探针）
+- `next_trillion_market_cap_stock_value_management_gate.md`：《下一只千亿股》：把“市值管理”翻译成可执行的选股门禁（反 FOMO 版：现金流/专注/兑现）
+- `lijigang_thinking_depth_reasoning_chain_and_angle.md`：李继刚：把“思考的深/准”拆成两维，并用大模型反修自己（可执行版）
+- `palantir_text_to_sql_no_memory_semantic_layer_oag.md`：Palantir 式问数架构：语义层×工具调用×审计（“不让模型回忆数字，而是让它去查”）
+- `naval_recontextualize_maxims_into_rules.md`：纳瓦尔：把“老套大道理”重写成当下可执行规则（反鸡汤引擎：情境门禁+Tripwire/Bound）
+- `event_reasoning_runs/README.md`：事件推理运行输出目录（mini-06 门禁版；含近期案例索引）
 

@@ -3,6 +3,8 @@
 > 极限的思索，是把自己推到边界：看见“本来可以发生的”，也看见“为何没发生”。  
 > 尽头常在远方，有时候却是现实——它不是终点，而是一个坐标：你站在这里，才会知道自己身处何时何地，究竟在追什么，又究竟遗忘了什么、错失了什么。  
 > 因此我们探究尽头：不是为了更漂亮的叙事，而是为了在选择之前先看清代价，在行动之后仍能回到现实，把喜悦与疼痛都纳入复盘，逼近那个“其实可以更好”的自己。
+>
+> “拥有了一双能看透迷雾，直抵本质的眼睛。”
 
 > 目标：把“做更好的选择”变成一套**可证伪 / 可退出 / 可复盘**、可长期迭代的系统。  
 > 核心信念：**选择质量（方向与乘数）长期大于努力强度（执行与燃料）**。
@@ -15,8 +17,9 @@
 2) **需要“年代参照系”时**：`distilled/yearbook/README.md`（2000–2025 年度复盘：短版入口）  
 3) **直接从“机会图谱”进入**：`distilled/opportunity_map.md`（Top 候选：Gate / 最短探针 / 停机点）  
 4) **需要强结论时**：`distilled/high_certainty_decisions.md`（强烈推荐/强烈不推荐 + 退出/重启条件）  
-5) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
-6) **不知道该用哪个框架时**：看 `frameworks/README.md` 的“框架路由（默认顺序）”
+5) **你在处理“正在演进的真实事件”（投资/政策/监管）**：从 `tools/event_reasoning/README.md` 进入（生成 1 页 IC memo + mini-06 + 证据表）  
+6) **想看完整推理与上下文**：去对应的 `world_understanding/*.md`（每条结论都有证据锚点与回写）
+7) **不知道该用哪个框架时**：看 `frameworks/README.md` 的“框架路由（默认顺序）”
 
 ---
 
@@ -115,6 +118,24 @@ flowchart TD
 - **1 条可证伪猜想（或更新旧猜想）**：写入 `meta/hypotheses_registry.md`
 - **1 条蒸馏结论入口**：更新 `distilled/opportunity_map.md`（必要时也更新 `distilled/core_hypotheses.md`）
 - **联结检查（小门禁）**：至少命中 1 条旧 `H-XXXX`（支持/反对/不确定三选一），并把交叉链接回写到 `meta/hypotheses_registry.md`（让新证据能升级旧猜想）
+
+---
+
+## 真实事件推理工作流（Event Reasoning Workflow，适合投资/政策/监管）
+
+当你不是在“消化一篇文章”，而是在处理一个**正在演进的真实事件**（例如：制裁/出口管制/监管调查/产业政策/市场结构变化），推荐直接用事件推理工具把它落成可执行 memo：
+
+- **入口**：`tools/event_reasoning/README.md`
+- **你在 Cursor 里最短发起方式**：  
+  直接对大模型说：请按 `tools/event_reasoning` 的规范把下面事件跑一遍，并输出 memo/mini06/证据表（我给你链接/线索…）
+
+**你会得到什么（默认交付）**
+- `sources/YYYY-MM-DD_event_reasoning_<event_id>.md`：证据表（可审计，含反证与盲点）
+- `world_understanding/event_reasoning_runs/YYYY-MM-DD_<event_id>_memo.md`：1 页 IC memo（结论/机制/情景/行动/停机点）
+- `world_understanding/event_reasoning_runs/YYYY-MM-DD_<event_id>_mini06.md`：门禁版（Tripwire/Bound/Spiral/最短探针）
+
+**为什么它和“文章工作流”不同**
+- 文章工作流更像“把材料变资产”；事件推理工作流更像“把不确定未来变成可下注的情景树 + 停机点”。
 
 ## 写作视角说明（Future Historian / 未来回看者）
 
