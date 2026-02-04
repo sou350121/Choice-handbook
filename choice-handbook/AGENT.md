@@ -6,11 +6,11 @@
 
 你要交付的不是“看起来很对”，而是读者能立刻用的 **强结论 + 规则**：
 
-### 三类输入 → 三条协议（默认你要自己选对工作流）
+### 工作流路由器（只需 1 条规则）
 
-- **文章/材料**（观点、长文、访谈、论文解读、随笔）→ 走 **Article Processing**：落盘 `sources` digest + `world_understanding` 主文 + 更新索引  
-- **正在演进的真实事件**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**：用 `tools/event_reasoning` 生成 memo/mini06/证据表  
-- **要求“BTC 式百倍/千倍”强结论/终局推演** → 走 **Framework 06**：按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出
+- **如果是“正在演进的真实事件”**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**（`tools/event_reasoning`，产出 memo/mini06/证据表）  
+  **否则如果用户明确要“BTC 式百倍/千倍强结论/终局推演”** → 走 **Framework 06**（按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出）  
+  **否则（默认）** → 走 **Article Processing**（落盘 `sources` digest + `world_understanding` 主文 + 更新索引）
 
 ### 约束速查卡（复制这个检查）
 
