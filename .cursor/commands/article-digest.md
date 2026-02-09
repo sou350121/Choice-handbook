@@ -12,6 +12,7 @@
 2) 生成一个 `world_understanding` 主文（机制/变量/预测/探针/退出重启），落盘到：  
    `choice-handbook/world_understanding/<slug>.md`  
    - 要求：用“短而密”的结构写，必须包含：机制链（箭头）/ 变量表（≤10）/ 3 情景（概率+时间窗+observables）/ 48h-7d-30d 探针 / 退出条件+重启条件
+   - 知识工厂工序（强制）：补一段“重述/合并”——从旧库抽取 2–3 个相关节点（或矛盾节点），写出合并后的新表述，并标注 1 个冲突点 + 1 个最小探针
 3) 更新索引：  
    - `choice-handbook/sources/README.md`  
    - `choice-handbook/world_understanding/README.md`
