@@ -11,3 +11,4 @@
 5) **`05_reasoning_toolkit.md`（材料去噪）**：材料混杂时：分类→抽变量→证据表→类比→最小验证动作。  
 6) **`06_time_travel_endgame_simulator.md`（重武器）**：用户点名要 06 / 要 BTC 式强结论 / 新项目或新 repo 需要 Gate 推演时使用；按固定标题输出（标题不可省）。  
 
+> Cursor 一键入口：默认用 `/inbox` 自动路由；需要直达时再用 `/article-digest`（05）、`/event-reasoning`、`/time-travel-06`（06）。

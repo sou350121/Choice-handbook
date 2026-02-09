@@ -58,6 +58,12 @@
 - `2026-02-03_xiaomi_buyback_hkd_linbin_disposal_usd_unit_mismatch_paste.md`：市场/公司事件 digest（小米：回购 HK$25 亿 vs 林斌减持计划 US$20 亿；用户粘贴全文 + 一手证据锚点）
 - `2026-02-04_naval_unteachable_lessons_recontextualize_maxims_paste.md`：访谈节选 digest（纳瓦尔：大道理需结合当下情境重写；把格言变规则；用户粘贴）
 - `2026-02-04_palantir_text_to_sql_no_memory_ontology_oag_paste.md`：工程/产品 digest（Palantir 式问数：不让 AI 回忆数字，而是语义层×工具调用×全链路审计；用户粘贴 + 一手锚点）
+- `2026-02-04_knowledge_management_3_0_ai_knowledge_factory_paste.md`：观点/方法论 digest（知识管理 1.0→2.0→3.0：从双链图谱到 AI 知识工厂；用户粘贴 + 最小锚点）
+- `2026-02-04_skywork_cowork_claude_gemini_multimodal_agent_playbook_paste.md`：产品实测 digest（Skywork 桌面 Cowork：本地执行×多模态×Skills；图片/视频/Office 流水线案例；用户粘贴 + 最小锚点）
+- `2026-02-04_notion_ivan_zhao_steam_steel_infinite_minds_rearview_mirror_paste.md`：二手解读 digest（Ivan Zhao《Steam, Steel, and Infinite Minds》：后视镜错觉×系统重构×“签字者/责任”；用户粘贴 + 一手锚点）
+- `2026-02-04_embodied_robotics_capital_flow_shift_brain_rental_ipo_paste.md`：行业报道 digest（具身智能：资金集中“具身大脑”+实干派交付；租赁/保险基础设施与IPO耐力赛信号；用户粘贴 + 可回查锚点）
+- `2026-02-08_intellifold2_open_source_foldbench_sota_paste.md`：科学智能 digest（IntelliFold 2 开源与 FoldBench：性能口径需对齐复现；更重要是 benchmark/部署/审计的评分函数迁移；用户粘贴 + 一手锚点）
+- `2026-02-08_anthropic_2026_agentic_coding_trends_report_paste.md`：工程趋势 digest（Anthropic 2026 Agentic Coding：协作悖论→编排者角色；多智能体协作协议+验收门禁+审计回滚；用户粘贴 + 一手锚点）
 - `2025-05-19_event_reasoning_autel_energy_us_investigation.md`：事件推理证据表（Autel Energy EV 充电桩的美方审查风险；证据链+不确定性）
 - `2026-02-03_event_reasoning_xiaomi_buyback_vs_linbin_disposal_plan.md`：事件推理证据表（小米：自动回购计划 vs 林斌减持计划；证据链+不确定性+可观测探针）
 

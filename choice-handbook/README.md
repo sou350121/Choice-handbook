@@ -11,7 +11,37 @@
 
 ---
 
+## 核心：知识管理 3.0（AI 知识工厂）
+
+这份手册把“知识管理”当作一件工程问题：不是收集笔记，而是让洞见可持续地产出、可验证、可复盘。
+
+- **1.0 给你柜子（文件夹）**：能收纳，但世界是网状的；排他分类会让检索与组合越来越难。  
+- **2.0 给你地图（双链图谱）**：能连接，但当节点到数千/上万时，连接的潜在组合爆炸，人脑带宽无法遍历；图谱会从星图变成乱麻。  
+- **3.0 给你生产线（可显式化设计并自动运行的工作流）**：把“高强度、可重复的认知劳动”流水线化：
+  - **自动清洗**：长文/材料 → 核心论点/结构/变量  
+  - **自动关联**：从全库压缩出可审的候选集（10–30 条）  
+  - **自动重述（最关键）**：抽旧卡片 → 在新语境下重写/合并/找冲突 → 把“存了就忘”变成持续显化  
+  - **审计/回滚**：关键结论必须能回链到证据锚点，否则就降级为观察名单
+
+在 3.0 里，人类不是操作工，而是**知识工厂指挥官**，只做三件事：
+
+1) **提出好问题**（方向盘）  
+2) **提供高质量上下文**（结构化养料：锚点/变量/约束/时间窗）  
+3) **做价值判断并签字**（哪种组合更有洞见、符合价值观、值得承担代价与责任）
+
+> 本项目把这套“生产线”落在 4 层资产结构里：`sources`（材料可回查）→ `world_understanding`（机制与预测）→ `meta`（可证伪猜想与证据升级）→ `distilled`（可复用结论与门禁）。
+
+这条生产线有两档“引擎”（也是你最常用的两套框架）：
+
+- **Framework 05（推理工具箱）= 生产线工序卡**：材料→结构→推演→行动（默认先用，短而密，可套用任何主题）。  
+- **Framework 06（时空穿越×终局推演）= 重武器**：当你要回答“是不是 BTC 级（10x/100x/1000x）/要 Gate 1/2/3 强结论/要终局地图”时才启用（强制标题、强制证伪、强制停机点）。
+
 ## Cursor Quickstart（只看这一段就够 / 复制粘贴就能用）
+
+### 0) 默认入口（你贴任何东西都行）→ `/inbox`
+
+在 Cursor Chat 输入：`/inbox`，把文章/事件/线索贴进去即可。  
+它会自动路由到 `/article-digest`（默认，Framework 05）/ `/event-reasoning` / `/time-travel-06` 并落盘。
 
 ### 1) 真实事件推理（投资/政策/监管/公司资本动作）→ `/event-reasoning`
 
@@ -23,17 +53,19 @@
 在 Cursor Chat 输入：`/article-digest`，把文章全文（或要点）+ 链接贴进去即可。  
 你会得到：`sources` digest + `world_understanding` 主文 + 两个索引更新。
 
-### 3) “BTC 式百倍/千倍”极限推演（强结论门禁）→ Framework 06
+### 3) “BTC 式百倍/千倍”极限推演（强结论门禁）→ `/time-travel-06`
 
-直接说：“请按 `choice-handbook/frameworks/06_time_travel_endgame_simulator.md` 的固定标题完整输出（不可省标题），并给 Gate/Tripwire/Bound/最短探针。”
+在 Cursor Chat 输入：`/time-travel-06`，把候选/材料 + 链接贴进去即可。  
+你会得到：按 06 固定标题输出的终局推演（Gate/Tripwire/Bound/最短探针），并按需落盘到 `world_understanding/`。
 
 ---
 
 ## 工作流路由器（你不用解释你要我做什么）
 
+- **你想省事（默认入口）** → 用 `/inbox`（自动路由）  
 - **你给的是“文章/观点/材料”** → 用 `/article-digest`（把材料变资产）  
 - **你给的是“正在演进的真实事件”（监管/政策/资本配置/供需/技术拐点）** → 用 `/event-reasoning`（把不确定未来变成情景树+停机点）  
-- **你要 BTC 式强结论/穿越推演/终局地图** → 用 Framework 06（把强结论写成可证伪门禁）
+- **你要 BTC 式强结论/穿越推演/终局地图** → 用 `/time-travel-06`（Framework 06：把强结论写成可证伪门禁）
 
 > 命令文件位置：`.cursor/commands/`（你可以在 Cursor Chat 里直接调用）
 
@@ -92,10 +124,11 @@
 
 ## 文章处理工作流（Article Processing Workflow）
 
-当你给我一篇文章时，我会把它变成“四层资产”（你在 GitHub 上一眼能找到）：
+当你给我一篇文章时，我会把它变成“四层资产”（你在 GitHub 上一眼能找到）。  
+你可以把它理解成一条**知识生产线**：材料进入 → 清洗 → 关联 → 重述/合并 → 证据升级 → 结论沉淀。
 
 - **sources/**：可回查 digest（锚点/定义/变量/机制/预测/不确定性）  
-- **world_understanding/**：完整推理与 Gate 分析（T0-Now/T0-Analog/Endgame/探针/停机点）  
+- **world_understanding/**：机制推演与门禁落地（默认按 Framework 05；需要终局/Gate 强结论时升级到 Framework 06）  
 - **meta/**：猜想注册表/决策日志（让新证据能验证旧猜想并升级确定性）  
 - **distilled/**：给人看的结论（结论+证据锚点+反证信号+下一步）
 
@@ -129,8 +162,10 @@ flowchart TD
 
 - **1 个 digest**：`sources/YYYY-MM-DD_xxx.md`
 - **1 个 world_understanding 主文**：`world_understanding/xxx.md`  
-  - 默认用 01/02/03/04/05 做“短而密”的推理与落地  
-  - 若用户点名 06 / 要 BTC 式强结论 / 新 repo 分析 → 必须按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题输出（标题不可省）
+  - 默认按 `frameworks/05_reasoning_toolkit.md` 的骨架做“短而密”的推理与落地  
+  - 若用户点名 06 / 要 BTC 式强结论 / 新 repo 分析 → 跑 `/time-travel-06`，按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出（标题不可省），并落盘到 `world_understanding/<slug>_endgame_06.md`
+- **1 段“重述/合并”（知识工厂工序）**：  
+  - 从旧库抽取 2–3 个相关节点（或相互矛盾的节点），写出一段“合并后的新表述”，并标注 1 个冲突点与后续探针  
 - **1 条可证伪猜想（或更新旧猜想）**：写入 `meta/hypotheses_registry.md`
 - **1 条蒸馏结论入口**：更新 `distilled/opportunity_map.md`（必要时也更新 `distilled/core_hypotheses.md`）
 - **联结检查（小门禁）**：至少命中 1 条旧 `H-XXXX`（支持/反对/不确定三选一），并把交叉链接回写到 `meta/hypotheses_registry.md`（让新证据能升级旧猜想）

@@ -58,6 +58,12 @@
 - `next_trillion_market_cap_stock_value_management_gate.md`：《下一只千亿股》：把“市值管理”翻译成可执行的选股门禁（反 FOMO 版：现金流/专注/兑现）
 - `lijigang_thinking_depth_reasoning_chain_and_angle.md`：李继刚：把“思考的深/准”拆成两维，并用大模型反修自己（可执行版）
 - `palantir_text_to_sql_no_memory_semantic_layer_oag.md`：Palantir 式问数架构：语义层×工具调用×审计（“不让模型回忆数字，而是让它去查”）
+- `knowledge_management_3_0_ai_knowledge_factory.md`：知识管理 3.0：从“双链图谱”到“AI 知识工厂”（工作流化的显式重述；含情景/observables/停机点）
+- `skywork_cowork_multimodal_agent_correct_playbook.md`：多模态桌面 Cowork 的正确玩法：本地执行器×Skills×知识工厂生产线（Skywork 案例；含情景/停机点/回滚）
+- `notion_steam_steel_infinite_minds_system_rebuild_signer.md`：Ivan Zhao（Notion）“蒸汽-钢铁-无限心智”：AI 时代的系统重构门禁（后视镜错觉×签字者/责任；含情景/探针/退出重启）
+- `embodied_robotics_capital_flow_shift_brain_rental_ipo.md`：具身智能“钱的流向变了”：大脑吸金×实干派交付×租赁/保险基础设施×IPO耐力赛（含情景/observables/探针/退出重启）
+- `intellifold2_open_source_foldbench_generative_science.md`：IntelliFold 2（开源）与 FoldBench：生成式科学智能评分函数迁移（benchmark/回归+部署可用性+审计回链；含情景/探针/退出重启）
+- `anthropic_2026_agentic_coding_trends_orchestrator_guardrails.md`：Anthropic 2026 Agentic Coding：协作悖论→编排者；护栏（协议/验收/审计/权限/回滚）决定净生产力（含情景/observables/探针/退出重启）
 - `naval_recontextualize_maxims_into_rules.md`：纳瓦尔：把“老套大道理”重写成当下可执行规则（反鸡汤引擎：情境门禁+Tripwire/Bound）
 - `event_reasoning_runs/README.md`：事件推理运行输出目录（mini-06 门禁版；含近期案例索引）
 

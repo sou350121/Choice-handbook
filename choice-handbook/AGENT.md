@@ -9,8 +9,10 @@
 ### 工作流路由器（只需 1 条规则）
 
 - **如果是“正在演进的真实事件”**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**（`tools/event_reasoning`，产出 memo/mini06/证据表）  
-  **否则如果用户明确要“BTC 式百倍/千倍强结论/终局推演”** → 走 **Framework 06**（按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出）  
+  **否则如果用户明确要“BTC 式百倍/千倍强结论/终局推演”** → 走 **Framework 06**（命令：`/time-travel-06`；按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出）  
   **否则（默认）** → 走 **Article Processing**（落盘 `sources` digest + `world_understanding` 主文 + 更新索引）
+
+> Cursor 用户默认入口：优先建议先用 `/inbox`（自动路由到上面三条之一）；只有在你确定类型时才直达 `/article-digest`、`/event-reasoning`、`/time-travel-06`。
 
 ### 约束速查卡（复制这个检查）
 
@@ -34,6 +36,8 @@
 - **1 个 world_understanding 主文**：`world_understanding/<slug>.md`（把观点翻译成机制/变量/预测/探针/退出重启）  
 - **索引更新（强制）**：`sources/README.md` + `world_understanding/README.md`
 
+> 核心口径（知识管理 3.0）：你交付的不是“写得像”，而是把材料送上**可自动化运行的知识生产线**：清洗 → 关联（候选集压缩）→ 重述/合并 → 审计/回滚。
+
 world_understanding 主文的最小骨架（缺一不可）：
 
 - **机制链**：用箭头写 `<问题> -> <机制1> -> <机制2> -> <影响>`  
@@ -41,6 +45,10 @@ world_understanding 主文的最小骨架（缺一不可）：
 - **情景树（3 条）**：每条必须含 概率/时间窗/触发条件/**observables（可观测指标）**  
 - **48h / 7d / 30d 探针**：用最小成本去拿“能改概率”的证据  
 - **退出条件 + 重启条件**：用可观测阈值写死（不是情绪）
+- **重述/合并（强制工序）**：  
+  - 从旧库抽取 2–3 个相关节点（或相互矛盾的节点）  
+  - 写出一段“合并后的新表述”（在新语境下重写，而不是拼贴）  
+  - 标注 1 个冲突点 + 1 个最小探针（出现什么证据就能解决冲突/改概率）
 
 ---
 
