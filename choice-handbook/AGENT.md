@@ -8,11 +8,12 @@
 
 ### 工作流路由器（只需 1 条规则）
 
-- **如果是“正在演进的真实事件”**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**（`tools/event_reasoning`，产出 memo/mini06/证据表）  
+- **如果用户明确要“穿越者投资判官”**（最大必然性×低估、3–5 年上升空间、政治情境树、收费站产业链图，且要求严格 1–7 输出）→ 走 **Traveler Judge**（命令：`/traveler-judge`）  
+  **否则如果是“正在演进的真实事件”**（投资/政策/监管/资本配置/供需/技术拐点）→ 走 **Event Reasoning**（`tools/event_reasoning`，产出 memo/mini06/证据表）  
   **否则如果用户明确要“BTC 式百倍/千倍强结论/终局推演”** → 走 **Framework 06**（命令：`/time-travel-06`；按 `frameworks/06_time_travel_endgame_simulator.md` 固定标题完整输出）  
   **否则（默认）** → 走 **Article Processing**（落盘 `sources` digest + `world_understanding` 主文 + 更新索引）
 
-> Cursor 用户默认入口：优先建议先用 `/inbox`（自动路由到上面三条之一）；只有在你确定类型时才直达 `/article-digest`、`/event-reasoning`、`/time-travel-06`。
+> Cursor 用户默认入口：优先建议先用 `/inbox`（自动路由到上面几条之一）；只有在你确定类型时才直达 `/article-digest`、`/event-reasoning`、`/traveler-judge`、`/time-travel-06`。
 
 ### 约束速查卡（复制这个检查）
 
@@ -25,6 +26,27 @@
 | **重启条件** | 写清楚"何时再上"（满足哪些证据才允许回来） | 至少写"如果 Y 证据出现就重启" |
 | **验证动作** | 给 7 天内能完成的小成本验证（具体动作 + 预期证据） | 至少给一个"最小探针"（48h/7d） |
 | **事实核验** | 对关键事实不确定时，先 web search；不然降级为观察名单 | 不确定就标注"不确定"，不要编造 |
+
+---
+
+## Traveler Judge 协议（穿越者投资判官，严格 1–7 输出）
+
+当用户明确要求“穿越者投资判官”（最大必然性×低估，且给定 as-of 日期），优先直接用：
+
+- 框架：`frameworks/07_future_traveler_investing_judge.md`
+- 命令：`/traveler-judge`
+
+**硬约束（强制）**：
+- 只能使用截至 as-of 日期的公开信息；晚于日期的信息一律不可用
+- 数据不全 → 必须用“区间 + 敏感度”，严禁装作确定
+- 供需与边际效益必须做量级计算（粗模型可，但要可复盘）
+- 政治情境树只做 3 个互斥分支
+- 每个方向/标的必须给“可检查”的低估条件（If-Then），除非当次已核验并标注来源与日期
+- 最多只允许追问 1 个关键参数（其余用假设+敏感度）
+
+落盘（默认）：
+- `world_understanding/traveler_judge_runs/YYYY-MM-DD_<scope>_judge.md`
+- 更新 `world_understanding/traveler_judge_runs/README.md` 索引
 
 ---
 

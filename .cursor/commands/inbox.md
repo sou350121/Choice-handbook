@@ -9,7 +9,8 @@
 
 ### 0) 先做路由判断（只用 1 条规则）
 
-- **若我明确写了**：BTC / 100x / 1000x / 终局 / Gate / 估值 / 路线图 → 直接走 **Framework 06**（等同 `/time-travel-06`）。  
+- **若我明确写了**：穿越者投资判官 / 最大必然性 / 收费站 / 政治情境树 / 低估检验 / 3–5 年上升空间 → 走 **Traveler Judge**（等同 `/traveler-judge`）。  
+- **否则若我明确写了**：BTC / 100x / 1000x / 终局 / Gate / 估值 / 路线图 → 直接走 **Framework 06**（等同 `/time-travel-06`）。  
 - **否则若输入是“正在演进的真实事件”**（监管/政策/资本动作/供需/技术拐点，且需要情景树+停机点）→ 走 **Event Reasoning**（等同 `/event-reasoning`）。  
 - **否则（默认）** → 走 **Article Processing（Framework 05 口径）**（等同 `/article-digest`）。  
 

@@ -58,6 +58,11 @@
 在 Cursor Chat 输入：`/time-travel-06`，把候选/材料 + 链接贴进去即可。  
 你会得到：按 06 固定标题输出的终局推演（Gate/Tripwire/Bound/最短探针），并按需落盘到 `world_understanding/`。
 
+### 4) 穿越者投资判官（最大必然性×低估，3–5 年）→ `/traveler-judge`
+
+在 Cursor Chat 输入：`/traveler-judge`，按 `frameworks/07_future_traveler_investing_judge.md` 的固定结构，把你的“日期/范围/输出结构（1–7）”提示词贴进去即可。  
+你会得到：严格按 1–7 结构写成的判官式报告（区间+敏感度，不装作确定），并落盘到 `world_understanding/traveler_judge_runs/`。
+
 ---
 
 ## 工作流路由器（你不用解释你要我做什么）
@@ -65,6 +70,7 @@
 - **你想省事（默认入口）** → 用 `/inbox`（自动路由）  
 - **你给的是“文章/观点/材料”** → 用 `/article-digest`（把材料变资产）  
 - **你给的是“正在演进的真实事件”（监管/政策/资本配置/供需/技术拐点）** → 用 `/event-reasoning`（把不确定未来变成情景树+停机点）  
+- **你要“穿越者投资判官”（最大必然性×低估，3–5 年，严格 1–7 输出）** → 用 `/traveler-judge`
 - **你要 BTC 式强结论/穿越推演/终局地图** → 用 `/time-travel-06`（Framework 06：把强结论写成可证伪门禁）
 
 > 命令文件位置：`.cursor/commands/`（你可以在 Cursor Chat 里直接调用）

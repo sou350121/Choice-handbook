@@ -65,5 +65,6 @@
 - `intellifold2_open_source_foldbench_generative_science.md`：IntelliFold 2（开源）与 FoldBench：生成式科学智能评分函数迁移（benchmark/回归+部署可用性+审计回链；含情景/探针/退出重启）
 - `anthropic_2026_agentic_coding_trends_orchestrator_guardrails.md`：Anthropic 2026 Agentic Coding：协作悖论→编排者；护栏（协议/验收/审计/权限/回滚）决定净生产力（含情景/observables/探针/退出重启）
 - `naval_recontextualize_maxims_into_rules.md`：纳瓦尔：把“老套大道理”重写成当下可执行规则（反鸡汤引擎：情境门禁+Tripwire/Bound）
+- `traveler_judge_runs/README.md`：穿越者投资判官运行输出目录（严格 1–7：最大必然性×低估×量级计算×政治情境树×收费站）
 - `event_reasoning_runs/README.md`：事件推理运行输出目录（mini-06 门禁版；含近期案例索引）
 
