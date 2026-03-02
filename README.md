@@ -24,7 +24,7 @@
 - **你正在做一个现实选择（职业/关系/项目/学习）**：从 `worksheets/decision_one_pager.md` 开始，用一页卡落地  
 - **你想训练“尽头 + 退出条件”的能力**：读 `frameworks/04_end_thinking_tangnuo.md`  
 - **你要把“观点”升级成“系统”**：读 `distilled/life_choice_operating_system.md`  
-- **你要设计一个“可自我发展”的成长项目**：先读 `cases/06_self_evolving_personal_system.md`，再配合 `checklists/self_evolving_project_checklist.md` 执行  
+- **你要设计一个“项目可自我发展（自进化）”的系统**：先读 `cases/06_self_evolving_project_system.md`，再配合 `checklists/self_evolving_project_checklist.md` 执行  
 - **你给我新文章/线索，想把它变成可用结论**：看下面的“文章处理工作流”
 
 ---
