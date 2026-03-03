@@ -16,4 +16,5 @@
 ## 已落盘
 
 - `robotics_data_infrastructure.md`：机器人：数据质量 × 数据基础设施 × 上线飞轮（从“更多数据”到“更好数据”）
+- `self_evolving_project_checklist.md`：项目自我发展系统：日/周/月执行清单（可证伪 / 可退出 / 可复盘）
 

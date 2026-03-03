@@ -11,4 +11,5 @@
 3. `03_health_rebuild.md`：健康——从透支到重建系统
 4. `04_money_invest_or_cashflow.md`：金钱——投资机会 vs 现金流安全
 5. `05_project_choose_and_kill.md`：做事——选项目与“杀项目”
+6. `06_self_evolving_project_system.md`：项目设计——打造可自我发展（自进化）的项目系统
 
